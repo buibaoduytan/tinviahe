@@ -1,32 +1,126 @@
 import { useEffect, useState } from "react";
-import { getLatestNews } from "../services/newsApi";
+import { useSearchParams } from "react-router-dom";
+import { getNews, type NewsScope } from "../services/newsApi";
 import type { NewsArticle } from "../types/news";
+import VideoScroll from "../ui/VideoScroll";
+import { BellDot } from "lucide-react";
+
+function scopeFromParam(v: string | null): NewsScope {
+  return v === "intl" ? "intl" : "vn";
+}
+
+function ArticleCover({ imageUrl, title }: { imageUrl?: string | null; title: string }) {
+  const [failed, setFailed] = useState(false);
+  if (!imageUrl || failed) {
+    return (
+      <div className="flex h-full min-h-35 w-full items-center justify-center bg-linear-to-br from-slate-800 via-slate-800 to-slate-900 text-center text-xs text-slate-500">
+        Không có ảnh
+      </div>
+    );
+  }
+  return (
+    <img
+      src={imageUrl}
+      alt={title}
+      className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+      loading="lazy"
+      onError={() => setFailed(true)}
+    />
+  );
+}
 
 export default function HomePage() {
-  const [articles, setArticles] = useState<NewsArticle[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const scope = scopeFromParam(searchParams.get("scope"));
+  const query = searchParams.get("q")?.trim() ?? "";
+
+  const [articles, setarticles] = useState<NewsArticle[]>([]);
+  const [loading, setloading] = useState(true);
+  const [error, seterror] = useState("");
+  const [, setDemo] = useState(false);
+  const [, setProvider] = useState<string | null>(null);
 
   useEffect(() => {
-    getLatestNews()
-      .then((data) => {
-        setArticles(data);
-        setError("");
-      })
-      .catch((err: unknown) => {
+    let cancelled = false;
+    async function loadNews() {
+      setloading(true);
+      seterror("");
+      try {
+        const data = await getNews(scope, query || undefined);
+        if (cancelled) return;
+        setarticles(data.articles);
+      } catch (err: unknown) {
+        if (cancelled) return;
         const message = err instanceof Error ? err.message : "Tải tin tức thất bại";
-        setError(message);
-      })
-      .finally(() => setLoading(false));
-  }, []);
+        seterror(message);
+        setDemo(false);
+        setProvider(null);
+      } finally {
+        if (!cancelled) setloading(false);
+      }
+    }
+    loadNews();
+    return () => {
+      cancelled = true;
+    };
+  }, [scope, query]);
+
+  function setScope(next: NewsScope) {
+    setSearchParams((prev) => {
+      const p = new URLSearchParams(prev);
+      p.set("scope", next);
+      return p;
+    });
+  }
+
+  const featured = articles[0];
+  const rest = articles.slice(1);
 
   return (
-    <section className="space-y-8">
-      <div className="hover:scale-102 duration-100 animate-fade-in rounded-2xl border border-slate-800 bg-linear-to-br from-slate-900 to-blue-950 p-6 shadow-2xl">
-        <h1 className="text-3xl font-bold md:text-4xl">Nền tảng Tinviahe – Trung tâm tổng hợp tin tức thông minh</h1>
-        <p className="mt-3 max-w-2xl text-slate-300">
-          Frontend tối ưu trải nghiệm người dùng, backend API độc lập, dễ dàng mở rộng và phát triển.
+    <section className="space-y-10 pb-8">
+      <div className="relative overflow-hidden rounded-3xl border border-slate-800/80 bg-linear-to-br from-slate-900 via-slate-900 to-blue-950/90 p-8 shadow-2xl shadow-blue-950/20 md:p-10">
+        <div className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-blue-500/10 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-32 -left-16 h-72 w-72 rounded-full bg-cyan-500/5 blur-3xl" />
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400/80">TinViaHe</p>
+        <h1 className="mt-2 max-w-3xl text-3xl font-bold tracking-tight text-white md:text-4xl">
+          Tin tức tổng hợp
+        </h1>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-slate-400">
+          Cập nhật tin tức mới nhất từ Việt Nam và thế giới, được tổng hợp từ nhiều nguồn đáng tin cậy.
         </p>
+
+
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <div className="inline-flex rounded-2xl border border-slate-700/90 bg-slate-950/50 p-1 backdrop-blur-sm">
+            <button
+              type="button"
+              onClick={() => setScope("vn")}
+              className={`rounded-xl px-5 py-2.5 text-sm font-semibold  ${
+                scope === "vn"
+                  ? "border-b-2 border-b-blue-400 text-shadow-blue-500 drop-shadow-blue-300 shadow-lg shadow-blue-600/25"
+                  : "text-slate-400 hover:text-white duration-initial"
+              }`}
+            >
+              Việt Nam
+            </button>
+            <button
+              type="button"
+              onClick={() => setScope("intl")}
+              className={`rounded-xl px-5 py-2.5 text-sm font-semibold  ${
+                scope === "intl"
+                  ? "border-b-2 border-b-blue-400 text-shadow-blue-500 drop-shadow-blue-300 shadow-lg shadow-blue-600/25"
+                  : "text-slate-400 hover:text-white duration-initial"
+              }`}
+            >
+              Quốc tế
+            </button>
+          </div>
+          {query ? (
+            <span className="rounded-full border border-slate-600 bg-slate-900/80 px-4 py-1.5 text-sm text-slate-300">
+              Từ khóa: <span className="font-medium text-white">{query}</span>
+            </span>
+          ) : null}
+        </div>
       </div>
 
       
@@ -59,8 +153,7 @@ export default function HomePage() {
 
       {!loading && !error && featured ? (
         <div className="space-y-6">
-          <BellDot className="hover:text-yellow-500" />
-          <h2 className="font-bold text-3xl text-shadow-white shadow-lg hover:shadow-blue-600">Nổi bật</h2>
+          <BellDot  className="font-bold text-3xl text-slate-200">Nổi bật</BellDot>
           <article className="group overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/60 shadow-xl transition hover:border-slate-700 md:grid md:grid-cols-2">
             <div className="relative aspect-video overflow-hidden bg-slate-800 md:aspect-auto">
               <ArticleCover imageUrl={featured.imageUrl} title={featured.title} />
@@ -68,7 +161,7 @@ export default function HomePage() {
             <div className="flex flex-col justify-center p-6 md:p-10">
               {featured.source ? (
                 <span className="text-xs font-semibold uppercase tracking-wider text-cyan-400/90">
-                  {featured.source}
+                  {featured.content}
                 </span>
               ) : null}
               <h3 className="mt-2 text-2xl font-bold leading-tight text-white md:text-3xl">{featured.title}</h3>
@@ -98,7 +191,7 @@ export default function HomePage() {
               <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {rest.map((article, index) => (
                   <article
-                    key={article.id}
+                    key={article.imageUrl}
                     className="group flex flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg transition hover:border-slate-700 hover:shadow-blue-950/20"
                     style={{ animationDelay: `${index * 50}ms` }}
                   >
@@ -108,7 +201,7 @@ export default function HomePage() {
                     <div className="flex flex-1 flex-col p-4">
                       {article.source ? (
                         <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-400/85">
-                          {article.source}
+                          {article.author}
                         </span>
                       ) : null}
                       <h3 className="mt-1 line-clamp-2 text-base font-semibold leading-snug text-slate-100">
