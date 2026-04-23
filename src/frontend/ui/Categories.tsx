@@ -30,7 +30,7 @@ const categories = [
   {
     label: "Giải trí",
     items: [
-      { href: "/giai-tri/phim", label: "Phim" },
+      { href: "/short-video", label: "Videos" },
       { href: "/giai-tri/am-nhac", label: "Âm nhạc" },
     ],
   },
@@ -134,6 +134,7 @@ export function Categories() {
             onToggle={() => setOpenIndex(openIndex === i ? null : i)}
           />
         ))}
+          
       </div>
     </>
   );

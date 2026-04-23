@@ -153,7 +153,6 @@ function VideoCard({ video, isActive, onClick }: VideoCardProps) {
   );
 }
 
-// ─── Main page ─────────────────────────────────────────────────────
 
 export default function VideoScrollPage() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -167,17 +166,16 @@ export default function VideoScrollPage() {
   }
 
   return (
+    
     <div className="bg-[#03111f] min-h-screen flex flex-col items-center font-sans">
-      {/* Header */}
+      
       <header className="w-full flex items-center px-6 py-3.5 bg-[#03111f] border-b border-[#0c2d4a]">
         <span className="text-[#7dd3fc] text-lg font-medium tracking-wide">
           TinVideos
         </span>
       </header>
 
-      {/* Content */}
       <div className="flex w-full max-w-3xl">
-        {/* Cards */}
         <div className="flex-1 min-w-0">
           {videos.map((video, i) => (
             <div
@@ -193,7 +191,6 @@ export default function VideoScrollPage() {
           ))}
         </div>
 
-        {/* Nav sidebar */}
         <div className="flex flex-col items-center gap-2 px-2.5 py-4 bg-[#03111f]">
           <button
             onClick={() => navigate(-1)}

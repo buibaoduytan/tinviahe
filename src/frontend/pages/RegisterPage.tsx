@@ -6,7 +6,6 @@ export default function RegisterPage() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const navigate = useNavigate();
-  const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -41,20 +40,14 @@ export default function RegisterPage() {
           />
           <div className="relative">
             <input
-              type={showPassword ? "text" : "password"}
+              type={"password"}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 pr-16"
               placeholder="Password"
               required
             />
-            <button
-              type="button"
-              onClick={() => setShowPassword((prev) => !prev)}
-              className="absolute right-2 top-1/2 -translate-y-1/2 rounded-md px-2 py-1 text-xs text-slate-300 transition hover:bg-slate-800 hover:text-white"
-            >
-              {showPassword ? "Ẩn" : "Hiện"}
-            </button>
+            
           </div>
           <div className="relative">
             <input
