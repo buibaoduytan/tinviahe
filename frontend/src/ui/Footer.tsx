@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import {Mail,Facebook,Github,ArrowRight,MapPin,} from 'lucide-react';
+import type { JSX } from 'react/jsx-runtime';
 
-export default function Footer() {
+export default function Footer(): JSX.Element {
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
 

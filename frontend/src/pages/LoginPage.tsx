@@ -1,6 +1,7 @@
 import { useState } from "react";
+import type { JSX } from "react/jsx-runtime";
 
-export default function LoginPage() {
+export default function LoginPage(): JSX.Element {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");

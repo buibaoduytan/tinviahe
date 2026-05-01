@@ -2,12 +2,13 @@ import type { ReactNode } from "react";
 import Footer from "../ui/Footer";
 import Navigation from "../ui/Navigation";
 import { Categories } from "../ui/Categories";
+import type { JSX } from "react/jsx-runtime";
 
 interface MainLayoutProps {
   children: ReactNode;
 }
 
-export default function MainLayout({ children }: MainLayoutProps) {
+export default function MainLayout({ children }: MainLayoutProps): JSX.Element {
   return (
     <div className="min-h-screen bg-(--surface-bg) text-(--app-text)">
       <Navigation />

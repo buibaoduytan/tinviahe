@@ -5,8 +5,9 @@ import HomePage from "./pages/HomePage.tsx";
 import LoginPage from "./pages/LoginPage.tsx";
 import RegisterPage from "./pages/RegisterPage.tsx";
 import VideoScrollPage from "./pages/ShortVideo.tsx";
+import type { JSX } from "react/jsx-runtime";
 
-export default function AppRouter() {
+export default function AppRouter(): JSX.Element {
   return (
     <BrowserRouter>
       <MainLayout>
