@@ -39,7 +39,7 @@ function ArticleCover({
   );
 }
 
-const ARTICLES_PER_PAGE = 50;
+const ARTICLES_PER_PAGE = 12;
 
 export default function HomePage(): JSX.Element {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -101,9 +101,9 @@ export default function HomePage(): JSX.Element {
   const displayedArticles = allArticles.slice(startIdx, endIdx);
 
   const featured = displayedArticles[0];
-  const mainGridArticles = displayedArticles.slice(1, 13);
-  const sidebarArticles = displayedArticles.slice(13, 19);
-  const bottomArticles = displayedArticles.slice(19);
+  const mainGridArticles = displayedArticles.slice(1, 5); // Giảm từ 6 xuống 4
+  const sidebarArticles = allArticles.slice(0, 3);
+  const bottomArticles = displayedArticles.slice(5); // Bắt đầu từ 5 thay vì 7
 
   return (
     <section className="space-y-12 pb-20" style={{ fontFamily: "Montserrat, sans-serif" }}>
@@ -293,7 +293,7 @@ export default function HomePage(): JSX.Element {
             <div className="space-y-6">
               <div className="border-t border-slate-800 pt-8">
                 <h3 className="text-lg font-bold text-white mb-6">Tin mới nhất</h3>
-                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                   {mainGridArticles.map((article) => (
                     <article
                       key={article.url}
@@ -351,7 +351,7 @@ export default function HomePage(): JSX.Element {
                 </h3>
               </div>
 
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {sidebarArticles.map((article, idx) => (
                   <article
                     key={article.url}
@@ -414,15 +414,15 @@ export default function HomePage(): JSX.Element {
           {/* ============ BOTTOM ARTICLES ============ */}
           {bottomArticles.length > 0 && (
             <div className="border-t border-slate-800 pt-8">
-              <h3 className="text-lg font-bold text-white mb-6">Các bài khác ({bottomArticles.length})</h3>
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <h3 className="text-lg font-bold text-white mb-6">Các bài khác</h3>
+              <div className="grid gap-6 sm:grid-cols-2">
                 {bottomArticles.map((article) => (
                   <article
                     key={article.url}
-                    className="group flex gap-3 overflow-hidden rounded-lg border border-slate-800 bg-slate-900/30 transition hover:border-slate-700 p-3"
+                    className="group flex gap-4 overflow-hidden rounded-lg border border-slate-800 bg-slate-900/30 transition hover:border-slate-700 p-4"
                   >
                     {/* Thumbnail - nhỏ hơn */}
-                    <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-lg bg-slate-800">
+                    <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-slate-800">
                       <ArticleCover imageUrl={article.imageUrl} title={article.title} />
                     </div>
 

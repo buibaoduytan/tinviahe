@@ -102,6 +102,7 @@ function CategoryDropdown({
 export function Categories(): JSX.Element {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const ref = useRef<HTMLDivElement>(null);
+  const location = useLocation();
 
   // Đóng khi click ra ngoài
   useEffect(() => {
@@ -113,6 +114,11 @@ export function Categories(): JSX.Element {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => setOpenIndex(null), 0);
+    return () => window.clearTimeout(timer);
+  }, [location.pathname]);
 
   return (
     <>

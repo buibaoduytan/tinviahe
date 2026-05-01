@@ -2,7 +2,7 @@ import type { NewsApiResponse, NewsArticle, RawNewsArticle } from "../types/news
 
 export type NewsScope = "vn" | "intl";
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "/api";
 
 export async function getNews(
   scope: NewsScope,
@@ -13,7 +13,7 @@ export async function getNews(
   if (q) params.set("q", q);
 
   try {
-    const res = await fetch(`${BASE_URL}/api/news?${params.toString()}`);
+    const res = await fetch(`${BASE_URL}/news?${params.toString()}`);
 
     if (!res.ok) {
       console.error("Lỗi Http:", res.status);

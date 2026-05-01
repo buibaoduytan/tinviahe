@@ -28,6 +28,14 @@ export default function Navigation(): JSX.Element {
     return subscribeAuth(sync);
   }, []);
 
+  useEffect(() => {
+    const nextQuery = searchParams.get("q") ?? "";
+    const timer = window.setTimeout(() => {
+      setSearchInput((prev) => (prev === nextQuery ? prev : nextQuery));
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [searchParams]);
+
   function handleSearch(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const q = searchInput.trim();

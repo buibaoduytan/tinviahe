@@ -25,6 +25,11 @@ export default function Sidebar(): JSX.Element {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  useEffect(() => {
+    const timer = window.setTimeout(() => setOpen(false), 0);
+    return () => window.clearTimeout(timer);
+  }, [location.pathname]);
+
   return (
     <div ref={ref} className="relative">
       <button
