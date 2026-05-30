@@ -1,4 +1,4 @@
-import type { NewsApiResponse, NewsArticle, RawNewsArticle } from "../types/news";
+import type { NewsApiResponse, NewsArticle } from "../types/news";
 
 export type NewsScope = "vn" | "intl";
 
@@ -29,26 +29,13 @@ export async function getNews(
     }
 
     const data = await res.json();
-    const rawArticles: RawNewsArticle[] = Array.isArray(data.articles) ? data.articles : [];
-    const articles: NewsArticle[] = rawArticles.map((article, index) => ({
-      title: article.title ?? "Không có tiêu đề",
-      url: article.url ?? `#article-${index}`,
-      imageUrl: article.imageUrl ?? null,
-      description: article.description ?? null,
-      content: article.content ?? null,
-      author: article.author ?? null,
-      publishedAt: article.publishedAt ?? new Date().toISOString(),
-      source: article.source
-        ? {
-            id: article.source.id ?? null,
-            name: article.source.name ?? null,
-          }
-        : null,
-    }));
+    const rawArticles: NewsArticle[] = Array.isArray(data.articles)
+      ? data.articles
+      : [];
 
     return {
-      articles,
-      total: data.total ?? articles.length,
+      articles: rawArticles,
+      total: data.total ?? rawArticles.length,
     };
   } catch (err) {
     console.error("Fetch lỗi:", err);

@@ -1,27 +1,29 @@
 const { getLatestNews, getAllNews } = require("./news.services");
 
-function scopeToFilter(scope) {
-  if (scope === "vn") {
-    return { country: "vi", language: "vi" };
+function scopeToFilter(scope = "vn") {
+  if (scope === "intl") {
+    return { language: "en", country: "us" };
   }
-  return { country: "us", language: "en" };
+  // default: vn
+  return { language: "vi", country: "vn" };
 }
 
 module.exports.fetchNews = async (req, res) => {
   try {
     const { q = "", scope = "vn", full = "false" } = req.query;
-    const { country, language } = scopeToFilter(scope);
+    const { language, country } = scopeToFilter(scope);
+    const isFull = String(full).toLowerCase() === "true";
 
-    const articles =
-      full === "true"
-        ? await getAllNews({ q, country, language })
-        : await getLatestNews({ q, country, language });
+    const articles = isFull
+      ? await getAllNews({ q: q.trim(), language, country })
+      : await getLatestNews({ q: q.trim(), language, country });
 
     res.json({
       articles,
       total: articles.length,
     });
   } catch (err) {
+    console.error("[fetchNews]", err);
     res.status(500).json({
       articles: [],
       total: 0,

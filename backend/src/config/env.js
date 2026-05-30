@@ -1,10 +1,11 @@
 const path = require("path");
 const dotenv = require("dotenv");
 
+// __dirname = backend/src/config
+// Cần đi lên 3 cấp để đến root của backend
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
-dotenv.config();
 
 module.exports = {
-  NEWS_API_KEY: process.env.NEWS_API_KEY,
+  apikey: process.env.apikey,
   PORT: process.env.PORT || 3001,
 };
