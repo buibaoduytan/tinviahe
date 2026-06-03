@@ -30,12 +30,12 @@ export function ArticlesGrid({ bottomArticles }: ArticlesGridProps): JSX.Element
                 {/* IMAGE CONTAINER - HOVER HERE */}
                 <div
                   className="relative h-24 w-40 shrink-0 overflow-hidden rounded-lg bg-slate-800 cursor-pointer"
-                  onMouseEnter={() => setHoveredArticle(article.url)}
+                  onMouseEnter={() => setHoveredArticle(article.url as string)}
                   onMouseLeave={() => setHoveredArticle(null)}
                 >
                   {/* IMAGE */}
                   <img
-                    src={article.imageUrl || ''}
+                    src={article.image_url || ''}
                     alt={article.title}
                     className={`h-full w-full object-cover transition-all duration-300 ${
                       hoveredArticle === article.url
@@ -94,7 +94,7 @@ export function ArticlesGrid({ bottomArticles }: ArticlesGridProps): JSX.Element
                   )}
 
                  <a
-                      href={article.url}
+                      href={article.url as string}
                       target="_blank"
                       rel="noreferrer"
                       className="flex items-center px-2 py-1 text-xs font-medium text-blue-300 transition hover:text-blue-200 active:scale-95"

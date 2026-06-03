@@ -1,4 +1,9 @@
+import type { Key } from "react"
+
 export interface NewsArticle {
+    publishedAt: string | number | Date
+    source: any
+    url: Key | null | undefined
     article_id: string
     link: string
     title: string
@@ -8,8 +13,8 @@ export interface NewsArticle {
     creator: string
     language: string
 
-    country: string
-    category: string
+    country: string | string[];
+    category: string | string[];
 
     datatype: string
 
@@ -25,15 +30,6 @@ export interface NewsArticle {
     source_priority: number
     source_url: string
     source_icon: string | null
-
-    sentiment: string
-    sentiment_stats: string
-
-    ai_tag: string
-    ai_region: string
-    ai_org: string
-    ai_summary: string
-
     duplicate: boolean
 }
 export interface NewsApiResponse {

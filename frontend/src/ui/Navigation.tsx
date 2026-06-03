@@ -1,32 +1,23 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { Link, useLocation, useNavigate, useSearchParams } from "react-router-dom";
-import { clearAuth, getStoredAuth, subscribeAuth } from "../services/authApi";
 import { Menu, X, Search } from "lucide-react";
 import type { JSX } from "react/jsx-runtime";
 
 const publicNav = [
   { href: "/", label: "Trang chủ" },
   { href: "/about", label: "Về chúng tôi" },
+  { href: "/know", label: "Hiểu biết" },
 ];
 
-const authNav = [
-  { href: "/login", label: "Đăng nhập" },
-  { href: "/register", label: "Đăng ký" },
-];
 
 export default function Navigation(): JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const [username, setUsername] = useState<string | null>(() => getStoredAuth()?.username ?? null);
   const [searchInput, setSearchInput] = useState(() => searchParams.get("q") ?? "");
 
-  useEffect(() => {
-    const sync = () => setUsername(getStoredAuth()?.username ?? null);
-    sync();
-    return subscribeAuth(sync);
-  }, []);
+ 
 
   useEffect(() => {
     const nextQuery = searchParams.get("q") ?? "";
@@ -62,13 +53,6 @@ export default function Navigation(): JSX.Element {
       navigate({ pathname: "/", search: next.toString() ? `?${next.toString()}` : "" });
     }
   }
-
-  function handleLogout() {
-    clearAuth();
-    setIsMenuOpen(false);
-    navigate("/");
-  }
-
   return (
     <div className="sticky top-0 z-40 border-b border-slate-800/50 bg-linear-to-b from-slate-900/95 to-slate-900/80 backdrop-blur-md">
       <nav className="mx-auto flex min-h-16 w-full max-w-6xl flex-col gap-0 px-4 py-3 md:flex-row md:items-center md:justify-between md:gap-6 md:px-8">
@@ -154,38 +138,7 @@ export default function Navigation(): JSX.Element {
           ))}
           
           <li className="mx-1 h-6 w-px bg-slate-700/50" /> {/* Divider */}
-          
-          {username ? (
-            <>
-              <li className="px-3 py-2 text-sm text-slate-400">
-                <span className="hidden sm:inline">Xin chào,</span> <span className="font-semibold text-blue-300">{username}</span>
-              </li>
-              <li>
-                <button
-                  type="button"
-                  onClick={handleLogout}
-                  className="rounded-lg px-3 py-2 text-sm font-medium text-slate-300 transition hover:bg-red-500/20 hover:text-red-300"
-                >
-                  Đăng xuất
-                </button>
-              </li>
-            </>
-          ) : (
-            authNav.map((item) => (
-              <li key={item.href}>
-                <Link
-                  to={item.href}
-                  className={`rounded-lg px-3 py-2 text-sm font-medium transition ${
-                    location.pathname === item.href
-                      ? "bg-blue-500/20 text-blue-300 shadow-lg shadow-blue-500/20"
-                      : "text-slate-300 hover:bg-slate-700/50 hover:text-white"
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))
-          )}
+      
         </ul>
 
         {/* Mobile Navigation Menu */}
@@ -207,36 +160,6 @@ export default function Navigation(): JSX.Element {
             ))}
             
             <div className="border-t border-slate-700/50 py-2" />
-            
-            {username ? (
-              <>
-                <div className="px-3 py-2 text-sm text-slate-400">
-                  Xin chào, <span className="font-semibold text-blue-300">{username}</span>
-                </div>
-                <button
-                  type="button"
-                  onClick={handleLogout}
-                  className="rounded-lg px-3 py-2.5 text-left text-sm font-medium text-slate-300 transition hover:bg-red-500/20 hover:text-red-300"
-                >
-                  Đăng xuất
-                </button>
-              </>
-            ) : (
-              authNav.map((item) => (
-                <Link
-                  key={item.href}
-                  to={item.href}
-                  onClick={() => setIsMenuOpen(false)}
-                  className={`rounded-lg px-3 py-2.5 text-sm font-medium transition ${
-                    location.pathname === item.href
-                      ? "bg-blue-500/20 text-blue-300"
-                      : "text-slate-300 hover:bg-slate-700/50 hover:text-white"
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              ))
-            )}
           </div>
         )}
       </nav>

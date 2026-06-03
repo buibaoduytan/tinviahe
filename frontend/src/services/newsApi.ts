@@ -6,9 +6,10 @@ const BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "/api";
 
 export async function getNews(
   scope: NewsScope,
-  query?: string
+  query?: string,
+  full = false,
 ): Promise<NewsApiResponse> {
-  const params = new URLSearchParams({ scope });
+  const params = new URLSearchParams({ scope, full: String(full) });
   const q = query?.trim();
   if (q) params.set("q", q);
 

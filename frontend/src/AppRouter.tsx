@@ -2,10 +2,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout.tsx";
 import AboutPage from "./pages/AboutPage.tsx";
 import HomePage from "./pages/HomePage.tsx";
-import LoginPage from "./pages/LoginPage.tsx";
-import RegisterPage from "./pages/RegisterPage.tsx";
-import VideoScrollPage from "./pages/ShortVideo.tsx";
+
+import VideoCard from "./pages/ShortVideo.tsx";
 import type { JSX } from "react/jsx-runtime";
+import KnowPage from "./pages/KnowPage.tsx";
 
 export default function AppRouter(): JSX.Element {
   return (
@@ -14,9 +14,8 @@ export default function AppRouter(): JSX.Element {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/short-video" element={<VideoScrollPage />} />
+          <Route path="/know" element={<KnowPage />} />
+          <Route path="/short-video" element={<VideoCard />} />
         </Routes>
       </MainLayout>
     </BrowserRouter>
