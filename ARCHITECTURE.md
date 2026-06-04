@@ -14,5 +14,3 @@
 - `backend/src/config`: cấu hình môi trường, db, logger
 - `backend/src/modules`: tách theo nghiệp vụ (auth/news/users)
 - `backend/src/routes`: định nghĩa API routes
-- `backend/src/middlewares`: middleware auth/validate/error
-- `backend/src/utils`: helper dùng chung

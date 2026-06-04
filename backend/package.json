@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Noi nay de code API rieng.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,4 +15,5 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
+  
 }

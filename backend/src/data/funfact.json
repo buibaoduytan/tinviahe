@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Mật ong không hỏng",
+    "fun_fact": "Mật ong có thể tồn tại hàng nghìn năm mà không bị hỏng nếu được bảo quản kín.",
+    "categories": "science",
+    "img_url": "https://example.com/images/honey.jpg"
+  },
+  {
+    "name": "Bạch tuộc có ba trái tim",
+    "fun_fact": "Bạch tuộc sở hữu 3 trái tim, trong đó 2 trái tim bơm máu tới mang và 1 trái tim bơm máu tới cơ thể.",
+    "categories": "animal",
+    "img_url": "https://example.com/images/octopus.jpg"
+  },
+  {
+    "name": "Tháp Eiffel thay đổi chiều cao",
+    "fun_fact": "Vào mùa hè, Tháp Eiffel có thể cao hơn khoảng 15 cm do kim loại giãn nở vì nhiệt.",
+    "categories": "history",
+    "img_url": "https://example.com/images/eiffel.jpg"
+  },
+  {
+    "name": "Chuối là quả mọng",
+    "fun_fact": "Theo thực vật học, chuối được xếp vào nhóm quả mọng (berry).",
+    "categories": "nature",
+    "img_url": "https://example.com/images/banana.jpg"
+  },
+  {
+    "name": "Mặt trời rất lớn",
+    "fun_fact": "Khoảng 1,3 triệu Trái Đất có thể chứa vừa bên trong Mặt Trời.",
+    "categories": "space",
+    "img_url": "https://example.com/images/sun.jpg"
+  },
+  {
+    "name": "Wi-Fi không phải từ viết tắt",
+    "fun_fact": "Wi-Fi là tên thương hiệu được tạo ra, không phải viết tắt của cụm từ nào.",
+    "categories": "technology",
+    "img_url": "https://example.com/images/wifi.jpg"
+  },
+  {
+    "name": "Kim cương có thể cháy",
+    "fun_fact": "Kim cương thực chất là carbon tinh khiết và có thể cháy ở nhiệt độ đủ cao.",
+    "categories": "science",
+    "img_url": "https://example.com/images/diamond.jpg"
+  },
+  {
+    "name": "Cá ngựa đực mang thai",
+    "fun_fact": "Ở cá ngựa, con đực là cá thể mang và sinh con.",
+    "categories": "animal",
+    "img_url": "https://example.com/images/seahorse.jpg"
+  },
+  {
+    "name": "Trái Đất không hoàn toàn tròn",
+    "fun_fact": "Trái Đất hơi phình ra ở xích đạo và dẹt hơn ở hai cực.",
+    "categories": "geography",
+    "img_url": "https://example.com/images/earth.jpg"
+  },
+  {
+    "name": "Tiếng sét nóng hơn Mặt Trời",
+    "fun_fact": "Nhiệt độ trong tia sét có thể đạt khoảng 30.000°C, nóng hơn bề mặt Mặt Trời.",
+    "categories": "science",
+    "img_url": "https://example.com/images/lightning.jpg"
+  },
+  {
+    "name": "Loài chim nhỏ nhất thế giới",
+    "fun_fact": "Chim ruồi ong Cuba chỉ dài khoảng 5 cm và nặng chưa đến 2 gram.",
+    "categories": "animal",
+    "img_url": "https://example.com/images/hummingbird.jpg"
+  },
+  {
+    "name": "Minecraft là game bán chạy nhất",
+    "fun_fact": "Minecraft đã bán được hơn 300 triệu bản trên toàn thế giới.",
+    "categories": "gaming",
+    "img_url": "https://example.com/images/minecraft.jpg"
+  },
+  {
+    "name": "Nước nóng có thể đóng băng nhanh hơn",
+    "fun_fact": "Hiện tượng Mpemba cho thấy trong một số điều kiện, nước nóng có thể đóng băng nhanh hơn nước lạnh.",
+    "categories": "science",
+    "img_url": "https://example.com/images/ice.jpg"
+  },
+  {
+    "name": "Bộ não không cảm nhận đau",
+    "fun_fact": "Mô não không có thụ thể đau, vì vậy chính bộ não không thể cảm nhận cơn đau.",
+    "categories": "human",
+    "img_url": "https://example.com/images/brain.jpg"
+  },
+  {
+    "name": "Quốc kỳ lâu đời nhất",
+    "fun_fact": "Quốc kỳ Đan Mạch (Dannebrog) được xem là quốc kỳ quốc gia lâu đời nhất vẫn còn sử dụng.",
+    "categories": "history",
+    "img_url": "https://example.com/images/denmark-flag.jpg"
+  },
+  {
+    "name": "Tốc độ của ánh sáng",
+    "fun_fact": "Ánh sáng di chuyển với tốc độ khoảng 299.792 km mỗi giây trong chân không.",
+    "categories": "space",
+    "img_url": "https://example.com/images/light.jpg"
+  },
+  {
+    "name": "Bàn phím QWERTY",
+    "fun_fact": "Bố cục bàn phím QWERTY được thiết kế để giảm hiện tượng kẹt phím trên máy đánh chữ cơ học.",
+    "categories": "technology",
+    "img_url": "https://example.com/images/keyboard.jpg"
+  },
+  {
+    "name": "Loài cây cao nhất thế giới",
+    "fun_fact": "Cây Hyperion thuộc loài gỗ đỏ ven biển cao hơn 115 mét.",
+    "categories": "nature",
+    "img_url": "https://example.com/images/redwood.jpg"
+  },
+  {
+    "name": "Âm thanh không truyền trong chân không",
+    "fun_fact": "Âm thanh cần môi trường vật chất để truyền, vì vậy không thể nghe thấy âm thanh trong không gian.",
+    "categories": "space",
+    "img_url": "https://example.com/images/space.jpg"
+  },
+  {
+    "name": "Con người chớp mắt rất nhiều",
+    "fun_fact": "Trung bình một người chớp mắt khoảng 15–20 lần mỗi phút.",
+    "categories": "human",
+    "img_url": "https://example.com/images/eye.jpg"
+  }
+]
