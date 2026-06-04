@@ -34,7 +34,14 @@ async function shareArticle(article: NewsArticle): Promise<void> {
 }
 
 // ─── ArticleCover ─────────────────────────────────────────────────────────────
-
+function CategoryBadge({ category }: { category: string | string[] }) {
+  const text = Array.isArray(category) ? category.join(", ") : category;
+  return (
+    <span className="inline-block rounded-full bg-blue-600/20 px-3 py-1 text-xs font-semibold text-blue-400">
+      {text}
+    </span>
+  );
+}
 function ArticleCover({
   imageUrl,
   title,
@@ -123,11 +130,13 @@ function FeaturedArticle({ article }: { article: NewsArticle }) {
             <h2 className="mb-3 text-2xl font-extrabold leading-tight text-white lg:text-3xl">
               {article.title}
             </h2>
-            {article.description && (
               <p className="line-clamp-4 text-sm leading-relaxed text-slate-400">
                 {article.description}
               </p>
-            )}
+            <h2 className="mb-3 text-2xl font-extrabold leading-tight text-white lg:text-3xl">
+              {article.category && <CategoryBadge category={article.category} />}
+            </h2>
+            
           </div>
 
           <div className="mt-6 space-y-4">
@@ -199,6 +208,10 @@ function GridCard({ article }: { article: NewsArticle }) {
             {article.source_name}
           </span>
         )}
+        <h2 className="mb-3 text-2xl font-extrabold leading-tight text-white lg:text-3xl">
+          {article.category && <CategoryBadge category={article.category} />}
+        </h2>
+
         <h3 className="line-clamp-3 text-sm font-semibold leading-snug text-white group-hover:text-blue-300 transition-colors">
           {article.title}
         </h3>
