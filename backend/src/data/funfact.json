@@ -1,122 +1,1008 @@
 [
   {
-    "name": "Mật ong không hỏng",
-    "fun_fact": "Mật ong có thể tồn tại hàng nghìn năm mà không bị hỏng nếu được bảo quản kín.",
-    "categories": "science",
-    "img_url": "https://example.com/images/honey.jpg"
+    "id": "fact-1",
+    "categoryId": "space",
+    "categoryName": "Vũ trụ & Khoa học",
+    "name": "Mưa kim cương trên Sao Hải Vương",
+    "fun_fact": "Ở áp suất cực cao của Sao Hải Vương và Sao Thiên Vương, khí methane bị nén vỡ nát tạo thành những cơn mưa kim cương khổng lồ rơi xuống lõi hành tinh.",
+    "img_url": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Hiện tượng vật lý kỳ thú ở vùng rìa Hệ Mặt Trời",
+      "overview": "Các nhà khoa học tại Phòng thí nghiệm Gia tốc Quốc gia SLAC (Mỹ) đã sử dụng laser X-ray mạnh mẽ để tái tạo lại điều kiện nhiệt độ và áp suất bên trong các hành tinh băng khổng lồ.",
+      "content": "Bên dưới tầng khí quyển dày đặc của Sao Hải Vương và Sao Thiên Vương là một lớp chất lỏng siêu nóng gồm nước, amoniac và methane. Tại độ sâu khoảng 10.000 km, áp suất gấp khoảng vài triệu lần áp suất khí quyển Trái Đất và nhiệt độ lên tới vài nghìn độ C.\n\nĐiều kiện khắc nghiệt này tách các nguyên tử Cacbon ra khỏi chuỗi Hydrocarbon của methane (CH4). Các nguyên tử Cacbon sau đó nén chặt vào nhau, kết tinh thành cấu trúc tinh thể kim cương nguyên chất. Những viên kim cương này nặng hàng nghìn carat chìm dần qua tầng băng rơi xuống lõi của hành tinh.",
+      "key_takeaways": [
+        "Áp suất cực cao làm bứt đứt liên kết hóa học của Hydrocarbon.",
+        "Kim cương hình thành có kích thước từ vài milimet đến hàng mét.",
+        "Quá trình kim cương chìm xuống tỏa ra nguồn nhiệt lượng rất lớn."
+      ],
+      "did_you_know": "Năng lượng tỏa ra từ quá trình mưa kim cương chìm xuống lõi giải thích lý do vì sao Sao Hải Vương phát ra lượng nhiệt gấp đôi so với nhiệt lượng nó nhận được từ Mặt Trời."
+    }
   },
   {
-    "name": "Bạch tuộc có ba trái tim",
-    "fun_fact": "Bạch tuộc sở hữu 3 trái tim, trong đó 2 trái tim bơm máu tới mang và 1 trái tim bơm máu tới cơ thể.",
-    "categories": "animal",
-    "img_url": "https://example.com/images/octopus.jpg"
+    "id": "fact-2",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Bạch tuộc có 3 trái tim & Máu xanh",
+    "fun_fact": "Bạch tuộc sở hữu 3 trái tim cùng hệ tuần hoàn vô cùng đặc biệt. Máu của chúng có màu xanh lam thay vì màu đỏ như con người.",
+    "img_url": "https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?auto=format&fit=crop&w=800&q=80",
+    "readTime": "4 phút đọc",
+    "deep_info": {
+      "subtitle": "Sự thích nghi tiến hóa tuyệt vời dưới đáy đại dương",
+      "overview": "Cấu tạo sinh học của bạch tuộc là một trong những điều kỳ diệu nhất của giới tự nhiên, giúp chúng sống sót ở những vùng nước sâu có nhiệt độ cực thấp và oxy thưa thớt.",
+      "content": "Hai trong số ba trái tim của bạch tuộc đảm nhận nhiệm vụ bơm máu qua hai mang để nhận oxy, trong khi trái tim thứ ba (trái tim chính) có vai trò duy trì luồng máu chảy đi khắp các cơ quan còn lại trong cơ thể. Khi bạch tuộc bơi, trái tim chính sẽ ngừng đập, điều này giải thích tại sao chúng thường bò dưới đáy biển thay vì bơi để tránh kiệt sức.\n\nNgoài ra, thay vì sử dụng sắt trong Hemoglobin để vận chuyển oxy (khiến máu có màu đỏ), máu bạch tuộc giàu chất Hemocyanin chứa Đồng. Chất này hiệu quả hơn nhiều trong việc vận chuyển oxy ở môi trường nước biển lạnh giá và thiếu oxy.",
+      "key_takeaways": [
+        "2 trái tim mang phục vụ hô hấp, 1 trái tim chính nuôi cơ thể.",
+        "Trái tim chính dừng đập khi bơi, khiến chúng ưu tiên di chuyển bằng cách bò.",
+        "Sử dụng Hemocyanin gốc Đồng thay cho Hemoglobin gốc Sắt."
+      ],
+      "did_you_know": "Nếu bạch tuộc bị mất một chi, nó có thể mọc lại hoàn toàn chi đó cùng với các dây thần kinh chức năng mà không để lại sẹo."
+    }
   },
   {
-    "name": "Tháp Eiffel thay đổi chiều cao",
-    "fun_fact": "Vào mùa hè, Tháp Eiffel có thể cao hơn khoảng 15 cm do kim loại giãn nở vì nhiệt.",
-    "categories": "history",
-    "img_url": "https://example.com/images/eiffel.jpg"
+    "id": "fact-3",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Tháp Eiffel cao hơn vào mùa hè",
+    "fun_fact": "Do hiện tượng giãn nở vì nhiệt của kim loại, tháp Eiffel có thể cao thêm tới 15cm vào những ngày hè oi ả.",
+    "img_url": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Vật lý ứng dụng trong công trình biểu tượng của nước Pháp",
+      "overview": "Công trình kiến trúc nổi tiếng bằng sắt rèn được hoàn thành năm 1889 không chỉ là một kiệt tác nghệ thuật mà còn thể hiện rõ nét các quy luật vật lý cơ bản.",
+      "content": "Tháp Eiffel được cấu tạo từ hơn 18.000 thanh sắt rèn dẻo (puddled iron). Khi ánh nắng mặt trời chiếu xuống vào mùa hè, nhiệt độ kim loại gia tăng làm các nguyên tử sắt dao động mạnh hơn và chiếm nhiều khoảng không gian hơn. Hiện tượng giãn nở nhiệt này khiến toàn bộ khối kiến trúc nở ra.\n\nNgược lại, vào mùa đông, thời tiết lạnh giá làm sắt co lại, khiến chiều cao của tháp giảm đi từ 10 - 15 cm. Bên cạnh đó, mặt tháp hướng về phía Mặt Trời bị nóng lên nhiều hơn các mặt còn lại, khiến đỉnh tháp bị nghiêng nhẹ tới 15 cm.",
+      "key_takeaways": [
+        "Chiều cao tháp Eiffel biến thiên linh hoạt từ 15cm tùy theo thời tiết.",
+        "Sự chênh lệch nhiệt độ giữa các mặt làm đỉnh tháp nghiêng nhẹ.",
+        "Cấu trúc sắt rèn được thiết kế để chịu sự co giãn mà không rạn nứt."
+      ],
+      "did_you_know": "Tháp Eiffel từng được dùng làm một bảng quảng cáo khổng lồ cho hãng xe Citroën từ năm 1925 đến 1934 với hơn 250.000 bóng đèn."
+    }
   },
   {
-    "name": "Chuối là quả mọng",
-    "fun_fact": "Theo thực vật học, chuối được xếp vào nhóm quả mọng (berry).",
-    "categories": "nature",
-    "img_url": "https://example.com/images/banana.jpg"
+    "id": "fact-4",
+    "categoryId": "tech",
+    "categoryName": "Công nghệ & Tương lai",
+    "name": "Dung lượng lưu trữ của Bộ não con người",
+    "fun_fact": "Bộ não con người có khoảng 86 tỷ tế bào thần kinh, ước tính khả năng lưu trữ tương đương khoảng 2.5 Petabyte (2,5 triệu Gigabyte) dữ liệu.",
+    "img_url": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=800&q=80",
+    "readTime": "5 phút đọc",
+    "deep_info": {
+      "subtitle": "Siêu máy tính sinh học chưa có đối thủ",
+      "overview": "Mặc dù công nghệ máy tính phát triển vượt bậc, bộ não con người vẫn là hệ thống xử lý thông tin phức tạp và hiệu quả về năng lượng nhất từng tồn tại.",
+      "content": "Mỗi tế bào thần kinh (neuron) tạo ra khoảng 1.000 liên kết synapse với các neuron khác. Với 86 tỷ neuron, não tạo ra mạng lưới hơn 100 nghìn tỷ kết nối. Nếu mỗi neuron đóng vai trò như một bộ nhớ lưu trữ nhiều ký ức cùng lúc, tổng dung lượng ước tính sẽ đạt khoảng 2.5 Petabyte.\n\nĐể dễ hình dung: 2.5 Petabyte đủ để ghi lại hơn 3 triệu giờ chương trình truyền hình HD liên tục (tương đương phát liên tục trong hơn 300 năm). Điều kinh ngạc là toàn bộ siêu máy tính này chỉ tiêu thụ năng lượng khoảng 20 Watt.",
+      "key_takeaways": [
+        "Não chứa 86 tỷ neuron với 100 nghìn tỷ kết nối synapse.",
+        "Dung lượng ước tính 2.5 Petabyte (2,500,000 GB).",
+        "Mức tiêu thụ năng lượng cực thấp: chỉ khoảng 20 Watt."
+      ],
+      "did_you_know": "Tốc độ truyền tín hiệu thần kinh trong não có thể đạt tới 430 km/h, nhanh hơn cả tốc độ của xe đua Công thức 1."
+    }
   },
   {
-    "name": "Mặt trời rất lớn",
-    "fun_fact": "Khoảng 1,3 triệu Trái Đất có thể chứa vừa bên trong Mặt Trời.",
-    "categories": "space",
-    "img_url": "https://example.com/images/sun.jpg"
+    "id": "fact-5",
+    "categoryId": "human",
+    "categoryName": "Con người & Cơ thể",
+    "name": "Axit trong dạ dày có thể làm tan chảy kim loại",
+    "fun_fact": "Dạ dày chứa Axit Hydrochloric (HCl) cực mạnh với độ pH từ 1 đến 2, đủ sức hòa tan cả lưỡi dao cạo bằng thép.",
+    "img_url": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Hệ thống tiêu hóa và cơ chế tự bảo vệ kỳ diệu",
+      "overview": "Dạ dày con người giống như một lò phản ứng hóa học nhỏ, tiết ra môi trường axit mạnh để phân hủy thức ăn và tiêu diệt vi khuẩn có hại.",
+      "content": "Axit trong dạ dày chủ yếu là Axit Hydrochloric (HCl). Độ pH của dịch vị duy trì trong khoảng 1.5 đến 3.5. Trong thử nghiệm, một lưỡi dao cạo bằng thép sau 24 giờ ngâm trong dịch vị mô phỏng đã bị ăn mòn mất 63% trọng lượng.\n\nLý do dạ dày không tự tiêu hủy chính mình là nhờ lớp nhầy nhu mô (mucus layer) bảo vệ bao phủ bề mặt niêm mạc. Lớp nhầy này giàu Bicarbonate có tính kiềm giúp trung hòa axit. Niêm mạc dạ dày cũng được tái tạo hoàn toàn mỗi 3-5 ngày.",
+      "key_takeaways": [
+        "Dịch vị có pH 1.5 - 3.5 có khả năng ăn mòn kim loại mỏng.",
+        "Lớp nhầy giàu kiềm bảo vệ thành dạ dày khỏi bị ăn mòn.",
+        "Niêm mạc dạ dày tự tái tạo hoàn toàn sau mỗi 3-5 ngày."
+      ],
+      "did_you_know": "Mỗi ngày, dạ dày của một người trưởng thành sản sinh khoảng 1.5 đến 2 lít dịch vị axit."
+    }
   },
   {
-    "name": "Wi-Fi không phải từ viết tắt",
-    "fun_fact": "Wi-Fi là tên thương hiệu được tạo ra, không phải viết tắt của cụm từ nào.",
-    "categories": "technology",
-    "img_url": "https://example.com/images/wifi.jpg"
+    "id": "fact-6",
+    "categoryId": "space",
+    "categoryName": "Vũ trụ & Khoa học",
+    "name": "Mật ong không bao giờ bị hỏng",
+    "fun_fact": "Mật ong tự nhiên có thể tồn tại hàng nghìn năm mà không bị hỏng nếu được bảo quản trong hũ kín.",
+    "img_url": "https://images.unsplash.com/photo-1586106901017-b2d588f9c458?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Thực phẩm duy nhất tồn tại vĩnh cữu cùng thời gian",
+      "overview": "Các nhà khảo cổ học từng tìm thấy những hũ mật ong 3.000 năm tuổi trong các lăng mộ Ai Cập cổ đại mà vẫn hoàn toàn ăn được.",
+      "content": "Bí mật nằm ở thành phần hóa học của mật ong: hàm lượng nước rất thấp (dưới 18%) và tính axit cao (pH từ 3 đến 4.5). Môi trường hút ẩm mạnh này khiến vi khuẩn hay nấm mốc rơi vào sẽ lập tức bị mất nước và tiêu diệt.\n\nNgoài ra, khi ong luyện mật, enzyme glucose oxidase từ cơ thể ong tiết ra biến đường glucose thành axit gluconic và hydrogen peroxide (nước oxy già) - một chất kháng khuẩn tự nhiên vô cùng hiệu quả.",
+      "key_takeaways": [
+        "Độ ẩm cực thấp và tính axit ngăn vi khuẩn phát triển.",
+        "Enzyme của ong tạo ra chất kháng khuẩn Hydrogen Peroxide tự nhiên.",
+        "Bảo quản kín giúp mật ong duy trì chất lượng qua nhiều thiên niên kỷ."
+      ],
+      "did_you_know": "Mật ong kết tinh (đóng đường) không phải là bị hỏng, đó chỉ là hiện tượng vật lý tự nhiên của đường glucose và có thể làm tan bằng nước ấm."
+    }
   },
   {
-    "name": "Kim cương có thể cháy",
-    "fun_fact": "Kim cương thực chất là carbon tinh khiết và có thể cháy ở nhiệt độ đủ cao.",
-    "categories": "science",
-    "img_url": "https://example.com/images/diamond.jpg"
+    "id": "fact-7",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Chuối về mặt thực vật học là Quả Mọng",
+    "fun_fact": "Theo phân loại sinh học chính xác, quả chuối là một loại quả mọng (berry), trong khi quả dâu tây lại không phải!",
+    "img_url": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Sự nhầm lẫn thú vị trong tên gọi và phân loại sinh học",
+      "overview": "Định nghĩa quả mọng trong thực vật học phức tạp hơn rất nhiều so với khái niệm thông thường mà chúng ta hay dùng hàng ngày.",
+      "content": "Về mặt thực vật học, một quả mọng (berry) phải phát triển từ một bầu tụy đơn lẻ và có ba lớp: lớp vỏ ngoài (exocarp), lớp thịt giữa (mesocarp) và lớp bên trong chứa hạt (endocarp). Chuối đáp ứng hoàn hảo cả ba tiêu chuẩn này.Đáng kinh ngạc hơn, dâu tây hay mâm xôi không phải là quả mọng thực sự mà là quả phức. Phần thịt đỏ của dâu tây thực chất là mô đế hoa phồng to, còn những hạt nhỏ bên ngoài mới chính là quả thực sự.",
+      "key_takeaways": [
+        "Chuối có đầy đủ 3 cấu trúc lớp vỏ, thịt và hạt sinh học của berry.",
+        "Dâu tây về mặt sinh học thuộc nhóm quả phức (aggregate fruit).",
+        "Cà chua, dưa hấu và đu đủ cũng được xếp vào nhóm quả mọng."
+      ],
+      "did_you_know": "Cây chuối không phải là cây gỗ mà thực chất là loài cây thảo dược lớn nhất trên thế giới."
+    }
   },
   {
-    "name": "Cá ngựa đực mang thai",
-    "fun_fact": "Ở cá ngựa, con đực là cá thể mang và sinh con.",
-    "categories": "animal",
-    "img_url": "https://example.com/images/seahorse.jpg"
+    "id": "fact-8",
+    "categoryId": "space",
+    "categoryName": "Vũ trụ & Khoa học",
+    "name": "Kích thước siêu khổng lồ của Mặt Trời",
+    "fun_fact": "Mặt Trời chiếm tới 99.86% tổng khối lượng của toàn bộ Hệ Mặt Trời. Khoảng 1.3 triệu Trái Đất có thể nhét vừa bên trong nó.",
+    "img_url": "https://images.unsplash.com/photo-1532635241-17e820acc59f?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Trái tim rực cháy duy trì sự sống cho toàn hệ thống",
+      "overview": "Mặt Trời là một ngôi sao dạng chú vàng (Yellow Dwarf) ở trung tâm Hệ Mặt Trời, với đường kính khoảng 1.39 triệu km.",
+      "content": "Với khối lượng gấp 333.000 lần Trái Đất, lực hấp dẫn khổng lồ của Mặt Trời giữ tất cả các hành tinh, hành tinh tẻ, sao chổi và bụi vũ trụ quỹ đạo xung quanh nó.\n\nTại lõi Mặt Trời, nhiệt độ đạt khoảng 15 triệu độ C, nơi xảy ra phản ứng nhiệt hạch (tổng hợp hạt nhân) biến 600 triệu tấn Hydrogen thành Helium mỗi giây, giải phóng lượng năng lượng ánh sáng và nhiệt khổng lồ nuôi sống Trái Đất.",
+      "key_takeaways": [
+        "Chiếm 99.86% khối lượng của toàn Hệ Mặt Trời.",
+        "Chứa được 1.3 triệu Trái Đất bên trong lòng nó.",
+        "Phản ứng nhiệt hạch hạt nhân biến Hydrogen thành Helium mỗi giây."
+      ],
+      "did_you_know": "Ánh sáng phát ra từ lõi Mặt Trời mất hàng trăm nghìn năm để di chuyển ra bề mặt, nhưng chỉ mất 8 phút 20 giây để từ bề mặt bay tới Trái Đất."
+    }
   },
   {
-    "name": "Trái Đất không hoàn toàn tròn",
-    "fun_fact": "Trái Đất hơi phình ra ở xích đạo và dẹt hơn ở hai cực.",
-    "categories": "geography",
-    "img_url": "https://example.com/images/earth.jpg"
+    "id": "fact-9",
+    "categoryId": "tech",
+    "categoryName": "Công nghệ & Tương lai",
+    "name": "Sự thật về tên gọi Wi-Fi",
+    "fun_fact": "Cụm từ Wi-Fi hoàn toàn không phải là viết tắt của Wireless Fidelity như nhiều người vẫn lầm tưởng.",
+    "img_url": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Chiến dịch tiếp thị thương hiệu thành công nhất lịch sử công nghệ",
+      "overview": "Vào năm 1999, Liên minh Wi-Fi (Wi-Fi Alliance) đã thuê công ty thương hiệu Interbrand để tạo ra một cái tên dễ nhớ thay thế cho chuẩn kĩ thuật khô khan IEEE 802.11b Direct Sequence.",
+      "content": "Interbrand đề xuất tên Wi-Fi như một cách chơi chữ dựa trên thuật ngữ âm thanh hi-fi (high fidelity). Ban đầu, do lo ngại người dùng không hiểu, Liên minh Wi-Fi đã đính kèm khẩu hiệu The Standard for Wireless Fidelity Chính khẩu hiệu ngắn hạn này đã khiến công chúng hiểu nhầm suốt nhiều thập kỷ rằng Wi-Fi là viết tắt của Wireless Fidelity. Thực tế, Wi-Fi chỉ đơn thuần là một thương hiệu thương mại.",
+      "key_takeaways": [
+        "Wi-Fi là tên thương hiệu, không phải từ viết tắt kĩ thuật.",
+        "Tên gọi được chơi chữ dựa trên thuật ngữ âm thanh Hi-Fi.",
+        "Tên chuẩn kỹ thuật chính thức là IEEE 802.11."
+      ],
+      "did_you_know": "Nữ diễn viên Hedy Lamarr thời Thế chiến II là người đồng phát minh ra công nghệ nhảy tần - nền tảng của Wi-Fi và Bluetooth ngày nay."
+    }
   },
   {
-    "name": "Tiếng sét nóng hơn Mặt Trời",
-    "fun_fact": "Nhiệt độ trong tia sét có thể đạt khoảng 30.000°C, nóng hơn bề mặt Mặt Trời.",
-    "categories": "science",
-    "img_url": "https://example.com/images/lightning.jpg"
+    "id": "fact-10",
+    "categoryId": "space",
+    "categoryName": "Vũ trụ & Khoa học",
+    "name": "Kim cương có thể rực cháy",
+    "fun_fact": "Dù là chất tự nhiên cứng nhất Trái Đất, kim cương thực chất cấu tạo từ carbon nguyên chất và có thể cháy rụi thành khí CO2.",
+    "img_url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Phản ứng hóa học bất ngờ của viên đá quý giá trị nhất",
+      "overview": "Trong không khí bình thường, ở nhiệt độ khoảng 850°C đến 1000°C, viên kim cương sẽ bắt đầu phản ứng với oxy và bốc cháy.",
+      "content": "Do được cấu tạo hoàn toàn từ các nguyên tử Carbon liên kết chặt chẽ trong mạng tinh thể lập phương, khi gặp nhiệt độ đủ cao và oxy, Carbon sẽ phản ứng cháy hóa học tạo ra khí Carbon Dioxide (CO2) mà không để lại bất kỳ tro than nào.\n\nNếu đốt kim cương trong môi trường Oxy nguyên chất, nó sẽ bốc cháy với ngọn lửa màu xanh nhạt rực rỡ và biến mất hoàn toàn vào không khí.",
+      "key_takeaways": [
+        "Cấu tạo 100% từ Carbon nguyên chất kết tinh.",
+        "Bắt đầu cháy ở nhiệt độ khoảng 850°C trong không khí.",
+        "Khi cháy hết hoàn toàn biến thành khí CO2 mà không để lại tro."
+      ],
+      "did_you_know": "Nhà khoa học Antoine Lavoisier năm 1772 đã lần đầu chứng minh kim cương làm từ Carbon bằng cách dùng kính phóng đại hội tụ ánh nắng đốt cháy viên kim cương."
+    }
   },
   {
-    "name": "Loài chim nhỏ nhất thế giới",
-    "fun_fact": "Chim ruồi ong Cuba chỉ dài khoảng 5 cm và nặng chưa đến 2 gram.",
-    "categories": "animal",
-    "img_url": "https://example.com/images/hummingbird.jpg"
+    "id": "fact-11",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Cá ngựa đực mang thai và sinh con",
+    "fun_fact": "Trong giới động vật, cá ngựa là loài duy nhất mà con đực đảm nhận toàn bộ quá trình mang thai và sinh con.",
+    "img_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Kỳ tích sinh học đảo ngược vai trò giới tính",
+      "overview": "Cá ngựa đực sở hữu một chiếc túi ấp trứng chuyên dụng trước bụng hoạt động tương tự như tử cung của động vật có vú.",
+      "content": "Khi giao phối, cá ngựa mái sẽ chuyển hàng trăm đến hàng nghìn quả trứng vào túi ấp của con đực. Cá ngựa đực phóng tinh trùng để thụ tinh cho trứng, cung cấp oxy, chất dinh dưỡng và hormone prolactin (tương tự hormone tạo sữa ở người) để nuôi dưỡng phôi thai.\n\nThời gian mang thai kéo dài từ 2 đến 4 tuần. Khi đến lúc sinh, cá ngựa đực co bóp cơ thể dữ dội để đẩy hàng trăm chú cá ngựa con ra ngoài đại dương.",
+      "key_takeaways": [
+        "Con đực có túi ấp chuyên dụng cung cấp oxy và dinh dưỡng.",
+        "Cung cấp hormone Prolactin nuôi dưỡng phôi thai.",
+        "Mỗi lứa sinh có thể giải phóng từ 100 đến 2.000 cá ngựa con."
+      ],
+      "did_you_know": "Sau khi sinh con chỉ vài giờ, cá ngựa đực đã sẵn sàng nhận lứa trứng mới cho kỳ mang thai tiếp theo."
+    }
   },
   {
-    "name": "Minecraft là game bán chạy nhất",
-    "fun_fact": "Minecraft đã bán được hơn 300 triệu bản trên toàn thế giới.",
-    "categories": "gaming",
-    "img_url": "https://example.com/images/minecraft.jpg"
+    "id": "fact-12",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Trái Đất không hoàn toàn hình cầu",
+    "fun_fact": "Hình dạng thực sự của Trái Đất là một hình cầu dẹt (Oblate Spheroid), hơi phình ra ở xích đạo và dẹt ở hai cực.",
+    "img_url": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Tác động của lực ly tâm từ chuyển động tự quay",
+      "overview": "Do Trái Đất tự quay quanh trục với tốc độ khoảng 1.670 km/h tại xích đạo, lực ly tâm sinh ra làm phần giữa hành tinh bị đẩy phồng ra ngoài.",
+      "content": "Đường kính Trái Đất đo tại Xích đạo rộng hơn khoảng 43 km so với đường kính nối từ Cực Bắc xuống Cực Nam. Điều này đồng nghĩa với việc đỉnh núi Chimborazo ở Ecuador (nằm gần xích đạo) mới là điểm xa tâm Trái Đất nhất, chứ không phải đỉnh Everest.Sự biến dạng này cùng với sự phân bố khối lượng không đều của núi và đại dương tạo nên hình dạng địa cầu thực tế gọi là Geoid.",
+      "key_takeaways": [
+        "Lực ly tâm do tự quay khiến Xích đạo phình ra thêm 43 km.",
+        "Trọng lực ở hai cực mạnh hơn một chút so với ở xích đạo.",
+        "Đỉnh Chimborazo là điểm xa tâm Trái Đất nhất hành tinh."
+      ],
+      "did_you_know": "Nhờ Xích đạo phình ra, bạn thực sự sẽ nặng hơn một chút khi đứng ở Cực Bắc so với khi đứng ở Ecuador!"
+    }
   },
   {
-    "name": "Nước nóng có thể đóng băng nhanh hơn",
-    "fun_fact": "Hiện tượng Mpemba cho thấy trong một số điều kiện, nước nóng có thể đóng băng nhanh hơn nước lạnh.",
-    "categories": "science",
-    "img_url": "https://example.com/images/ice.jpg"
+    "id": "fact-13",
+    "categoryId": "space",
+    "categoryName": "Vũ trụ & Khoa học",
+    "name": "Tia sét nóng hơn bề mặt Mặt Trời",
+    "fun_fact": "Một tia sét có thể đun nóng không khí xung quanh lên tới 30.000°C – nóng gấp 5 lần so với bề mặt Mặt Trời.",
+    "img_url": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Sức mạnh phóng điện siêu nhiên của dòng plasma",
+      "overview": "Bề mặt Mặt Trời có nhiệt độ khoảng 5.500°C, trong khi dòng điện cực mạnh của sét giải phóng năng lượng khổng lồ trong tích tắc.",
+      "content": "Khi phóng điện, dòng electron di chuyển với tốc độ cực đại sinh ra kênh plasma ma sát mãnh liệt với không khí. Sự tăng nhiệt đột ngột từ vài độ C lên 30.000°C trong chưa đầy 1/10.000 giây khiến không khí giãn nở siêu tốc, tạo ra sóng xung kích mà chúng ta nghe thấy dưới dạng tiếng sấm rền.",
+      "key_takeaways": [
+        "Nhiệt độ dòng plasma sét đạt xấp xỉ 30.000°C.",
+        "Nóng gấp 5 lần bề mặt Mặt Trời (5.500°C).",
+        "Sự giãn nở không khí đột ngột sinh ra tiếng sấm."
+      ],
+      "did_you_know": "Mỗi giây có khoảng 100 cú sét đánh xuống bề mặt Trái Đất, tương đương khoảng 8 triệu cú sét mỗi ngày."
+    }
   },
   {
-    "name": "Bộ não không cảm nhận đau",
-    "fun_fact": "Mô não không có thụ thể đau, vì vậy chính bộ não không thể cảm nhận cơn đau.",
-    "categories": "human",
-    "img_url": "https://example.com/images/brain.jpg"
+    "id": "fact-14",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Chim ruồi ong - Loài chim nhỏ nhất thế giới",
+    "fun_fact": "Chim ruồi ong Cuba chỉ dài vỏn vẹn 5 cm và nặng chưa tới 2 gram, nhỏ hơn cả một quả bóng bàn.",
+    "img_url": "https://images.unsplash.com/photo-1551085254-e96b210db58a?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Kỳ quan sống nhỏ bé của đảo quốc Cuba",
+      "overview": "Loài chim ruồi Bee Hummingbird (Mellisuga helenae) là loài chim nhỏ nhất từng ghi nhận trên Trái Đất.",
+      "content": "Đôi cánh của chúng đập với tốc độ kinh ngạc: 80 lần mỗi giây trong lúc bay thường và lên tới 200 lần/giây khi trình diễn tỏ tình. Nhờ đó, chúng có thể bay lùi, bay dốc ngược và đứng yên lơ lửng trong không trung để hút mật hoa.\n\nThân nhiệt của chim ruồi là 40°C và nhịp tim đạt 1.260 nhịp/phút. Để duy trì năng lượng khổng lồ này, mỗi ngày chúng phải uống lượng mật hoa nặng gấp đôi trọng lượng cơ thể.",
+      "key_takeaways": [
+        "Trọng lượng nhẹ hơn một đồng xu (chỉ khoảng 1.6 - 1.9g).",
+        "Cánh đập 80-200 lần mỗi giây, có thể bay ngược.",
+        "Nhịp tim tối đa đạt 1.260 lần mỗi phút."
+      ],
+      "did_you_know": "Tổ của chim ruồi ong nhỏ đến mức chỉ bằng đường kính của một chiếc nắp chai nước khoáng!"
+    }
   },
   {
-    "name": "Quốc kỳ lâu đời nhất",
-    "fun_fact": "Quốc kỳ Đan Mạch (Dannebrog) được xem là quốc kỳ quốc gia lâu đời nhất vẫn còn sử dụng.",
-    "categories": "history",
-    "img_url": "https://example.com/images/denmark-flag.jpg"
+    "id": "fact-15",
+    "categoryId": "tech",
+    "categoryName": "Công nghệ & Tương lai",
+    "name": "Minecraft - Game bán chạy nhất lịch sử",
+    "fun_fact": "Tựa game ô vuông Minecraft đã vượt mốc 300 triệu bản bán ra, trở thành trò chơi điện tử bán chạy nhất mọi thời đại.",
+    "img_url": "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Hiện tượng văn hóa toàn cầu khởi nguồn từ một lập trình viên",
+      "overview": "Được sáng tạo bởi Markus Notch Persson vào năm 2009, Minecraft biến sự đơn giản thành không gian sáng tạo vô hạn.",
+      "content": "Khác với đa số game có cốt truyện cố định, Minecraft đem lại môi trường thế giới mở dạng khối vuông vô tận (sandbox). Người chơi có thể tự do khai thác tài nguyên, chế tạo công cụ và xây dựng mọi thứ từ ngôi nhà nhỏ đến các tòa thành khổng lồ hay máy vi tính hoạt động bằng đá đỏ (Redstone).\n\nNăm 2014, Microsoft đã mua lại studio Mojang cùng bản quyền Minecraft với giá 2.5 tỷ USD. Trò chơi hiện còn được ứng dụng rộng rãi trong giáo dục để dạy lập trình và kiến trúc.",
+      "key_takeaways": [
+        "Vượt mốc 300 triệu bản, vượt qua cả Tetris và GTA V.",
+        "Cung cấp tự do sáng tạo không giới hạn với hệ thống Redstone.",
+        "Được tích hợp vào chương trình giảng dạy STEM ở nhiều quốc gia."
+      ],
+      "did_you_know": "Thế giới trong Minecraft nếu tạo tối đa có diện tích bề mặt lớn gấp 8 lần diện tích bề mặt Trái Đất!"
+    }
   },
   {
-    "name": "Tốc độ của ánh sáng",
-    "fun_fact": "Ánh sáng di chuyển với tốc độ khoảng 299.792 km mỗi giây trong chân không.",
-    "categories": "space",
-    "img_url": "https://example.com/images/light.jpg"
+    "id": "fact-16",
+    "categoryId": "space",
+    "categoryName": "Vũ trụ & Khoa học",
+    "name": "Hiện tượng nước nóng đóng băng nhanh hơn nước lạnh",
+    "fun_fact": "Trong một số điều kiện nhất định, nước nóng có thể đóng băng nhanh hơn nước lạnh - gọi là hiệu ứng Mpemba.",
+    "img_url": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Nghịch lý vật lý nhiệt học đầy tranh cãi",
+      "overview": "Hiệu ứng được đặt theo tên học sinh người Tanzania Erasto Mpemba, người đã phát hiện ra hiện tượng này khi làm kem vào năm 1963.",
+      "content": "Dù nghe có vẻ vô lý theo các quy luật nhiệt động lực học thông thường, hiệu ứng Mpemba đã được quan sát từ thời Aristotle và Descartes.\n\nCác nhà khoa học giải thích hiện tượng này qua nhiều yếu tố kết hợp: nước nóng bốc hơi nhanh hơn làm giảm khối lượng, nước nóng giảm lượng khí hòa tan giúp truyền nhiệt tốt hơn, và sự thay đổi trong liên kết hydro giữa các phân tử nước khi bị đun sôi.",
+      "key_takeaways": [
+        "Hiện tượng nước nóng đóng thành đá trước nước lạnh.",
+        "Do tác động tổng hợp của sự bay hơi, đối lưu và liên kết Hydro.",
+        "Được phát hiện lại bởi một cậu học sinh trung học 13 tuổi."
+      ],
+      "did_you_know": "Nếu bạn hắt một ly nước sôi ra không khí ở nhiệt độ -40°C, nó sẽ ngay lập tức biến thành đám mây tuyết trắng xóa!"
+    }
   },
   {
-    "name": "Bàn phím QWERTY",
-    "fun_fact": "Bố cục bàn phím QWERTY được thiết kế để giảm hiện tượng kẹt phím trên máy đánh chữ cơ học.",
-    "categories": "technology",
-    "img_url": "https://example.com/images/keyboard.jpg"
+    "id": "fact-17",
+    "categoryId": "human",
+    "categoryName": "Con người & Cơ thể",
+    "name": "Mô não không thể cảm nhận đau đớn",
+    "fun_fact": "Bản thân mô não không có bất kỳ thụ thể cảm nhận đau đớn (nociceptors) nào, do đó không hề biết đau!",
+    "img_url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Lý do bác sĩ có thể phẫu thuật mổi khi bệnh nhân tỉnh táo",
+      "overview": "Mặc dù bộ não là cơ quan xử lý tín hiệu đau từ toàn bộ cơ thể gửi về, chính nó lại hoàn toàn vô cảm với đau đớn.",
+      "content": "Cơn đau đầu mà chúng ta cảm nhận thực chất xuất phát từ các thụ thể đau nằm ở màng脑 (meninges), các mạch máu xung quanh đầu và cơ vùng cổ bị căng thẳng hay viêm nhiễm.Nhờ đặc tính này, các bác sĩ phẫu thuật thần kinh có thể thực hiện phương pháp mổi thức tỉnh (Awake Craniotomy). Bệnh nhân được giữ tỉnh táo và trò chuyện để bác sĩ vừa mổ vừa kiểm tra chính xác các vùng chức năng ngôn ngữ hay vận động.",
+      "key_takeaways": [
+        "Mô não hoàn toàn thiếu các dây thần kinh cảm nhận đau.",
+        "Cơn đau đầu xuất phát từ màng não, mạch máu và cơ bắp xung quanh.",
+        "Cho phép phẫu thuật mổ脑 khi bệnh nhân đang thức."
+      ],
+      "did_you_know": "Trong một số cuộc phẫu thuật brain thức tỉnh, bệnh nhân thậm chí còn chơi đàn violin hoặc hát để giúp bác sĩ định vị vùng não kiểm tra!"
+    }
   },
   {
-    "name": "Loài cây cao nhất thế giới",
-    "fun_fact": "Cây Hyperion thuộc loài gỗ đỏ ven biển cao hơn 115 mét.",
-    "categories": "nature",
-    "img_url": "https://example.com/images/redwood.jpg"
+    "id": "fact-18",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Quốc kỳ lâu đời nhất thế giới còn dùng",
+    "fun_fact": "Lá cờ Dannebrog của Đan Mạch giữ kỷ lục Guinness là quốc kỳ sử dụng liên tục lâu đời nhất thế giới (từ năm 1219).",
+    "img_url": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Hơn 800 năm kiêu hãnh của biểu tượng chữ thập trắng",
+      "overview": "Lá cờ đỏ với thập tự giá màu trắng nổi tiếng đã gắn liền với lịch sử Vương quốc Đan Mạch suốt hơn 8 thế kỷ.",
+      "content": "Theo truyền thuyết dân gian Đan Mạch, trong Trận Lyndanisse diễn ra vào ngày 15 tháng 6 năm 1219 tại Estonia, khi quân Đan Mạch sắp thất bại, lá cờ đỏ với thánh giá trắng đã từ trên trời rơi xuống. Sự kiện này tiếp thêm sức mạnh giúp Vua Valdemar II giành chiến thắng.\n\nHồ sơ lịch sử chính thức xác nhận hình ảnh lá cờ này đã xuất hiện trên các ấn bản huy hiệu và con dấu hoàng gia Đan Mạch từ thế kỷ 14.",
+      "key_takeaways": [
+        "Sử dụng liên tục từ năm 1219 đến nay (hơn 800 năm).",
+        "Được Kỷ lục Guinness công nhận là quốc kỳ lâu đời nhất.",
+        "Truyền cảm hứng thiết kế cho cờ các nước Bắc Âu (Thụy Điển, Na Uy, Phần Lan)."
+      ],
+      "did_you_know": "Thiết kế chữ thập lệch tâm của cờ Đan Mạch về sau trở thành chuẩn mực cho toàn bộ cờ của các quốc gia vùng Scandinavia."
+    }
   },
   {
-    "name": "Âm thanh không truyền trong chân không",
-    "fun_fact": "Âm thanh cần môi trường vật chất để truyền, vì vậy không thể nghe thấy âm thanh trong không gian.",
-    "categories": "space",
-    "img_url": "https://example.com/images/space.jpg"
+    "id": "fact-19",
+    "categoryId": "tech",
+    "categoryName": "Công nghệ & Tương lai",
+    "name": "Nguồn gốc thiết kế bàn phím QWERTY",
+    "fun_fact": "Bố cục QWERTY được thiết kế vào năm 1872 để làm... CHẬM tốc độ gõ nhằm tránh kẹt phím máy đánh chữ cơ học.",
+    "img_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Thói quen công nghệ kéo dài hơn một thế kỷ",
+      "overview": "Christopher Latham Sholes - nhà sáng chế máy đánh chữ thương mại đầu tiên - đã phát minh ra bàn phím QWERTY.",
+      "content": "Ở các máy đánh chữ ban đầu, các phím được xếp theo thứ tự bảng chữ cái ABC. Khi người đánh máy gõ quá nhanh, các thanh dập chữ nằm gần nhau sẽ bị quấn vào nhau và gây kẹt máy.\n\nTo khắc phục, Sholes đã nghiên cứu tần suất các cặp chữ cái hay đi cùng nhau trong tiếng Anh (như TH, ST, ER) và tách chúng ra xa nhau trên bàn phím. Dù máy tính ngày nay không còn lo kẹt phím cơ học, chuẩn QWERTY vẫn tồn tại nhờ thói quen tiêu dùng.",
+      "key_takeaways": [
+        "Tách các ký tự hay đi liền nhau để ngăn kẹt thanh dập cơ học.",
+        "Phát minh năm 1872 bởi Christopher Latham Sholes.",
+        "Trở thành tiêu chuẩn bàn phím toàn cầu dù có nhiều chuẩn tối ưu hơn (Dvorak, Colemak)."
+      ],
+      "did_you_know": "Từ TYPEWRITER (máy đánh chữ) có thể gõ hoàn toàn chỉ bằng các phím nằm trên hàng đầu tiên của bàn phím QWERTY!"
+    }
   },
   {
-    "name": "Con người chớp mắt rất nhiều",
-    "fun_fact": "Trung bình một người chớp mắt khoảng 15–20 lần mỗi phút.",
-    "categories": "human",
-    "img_url": "https://example.com/images/eye.jpg"
+    "id": "fact-20",
+    "categoryId": "human",
+    "categoryName": "Con người & Cơ thể",
+    "name": "Tần suất chớp mắt kinh ngạc của con người",
+    "fun_fact": "Trung bình một người chớp mắt khoảng 15–20 lần mỗi phút, tương đương hơn 28.000 lần mỗi ngày!",
+    "img_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Cơ chế làm sạch tự động và nghỉ ngơi cho bộ não",
+      "overview": "Mỗi lần chớp mắt chỉ kéo dài từ 0.1 đến 0.4 giây, nhưng tổng thời gian mắt nhắm trong ngày chiếm tới 10% thời gian bạn thức.",
+      "content": "Chớp mắt không chỉ giúp dàn đều nước mắt làm ẩm nhãn cầu, dọn sạch bụi bẩn mà còn có chức năng thần kinh quan trọng: cho phép não bộ micro-rest (nghỉ ngơi trong thời gian cực ngắn) để tái tập trung chú ý.\n\nTuy nhiên, khi chúng ta nhìn vào màn hình máy tính hoặc điện thoại, tần suất chớp mắt giảm xuống chỉ còn 3–8 lần mỗi phút, là nguyên nhân chính gây ra hội chứng khô và mỏi mắt kỹ thuật số.",
+      "key_takeaways": [
+        "Chớp mắt 15-20 lần/phút giúp dưỡng ẩm và làm sạch giác mạc.",
+        "Giúp脑 bộ nghỉ ngơi cực ngắn để duy trì khả năng tập trung.",
+        "Giảm tới 60% tần suất chớp mắt khi nhìn vào màn hình thiết bị số."
+      ],
+      "did_you_know": "Trẻ sơ sinh chỉ chớp mắt trung bình 1 đến 2 lần mỗi phút vì mắt chúng chưa cần độ ẩm nhiều và não chưa xử lý lượng thông tin thị giác lớn!"
+    }
+  },
+  {
+    "id": "fact-21",
+    "categoryId": "space",
+    "categoryName": "Vũ trụ & Khoa học",
+    "name": "Sao Kim quay ngược chiều với hầu hết các hành tinh",
+    "fun_fact": "Sao Kim là một trong số ít hành tinh trong Hệ Mặt Trời tự quay quanh trục theo chiều ngược với Trái Đất và phần lớn các hành tinh khác.",
+    "img_url": "https://images.unsplash.com/photo-1614314107768-6018061b5b72?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Bí ẩn về chuyển động kỳ lạ của Sao Kim",
+      "overview": "Sao Kim có một đặc điểm rất khác thường: nó tự quay quanh trục theo chiều nghịch hành. Nếu đứng trên bề mặt Sao Kim, Mặt Trời sẽ mọc ở phía tây và lặn ở phía đông.",
+      "content": "Hầu hết các hành tinh trong Hệ Mặt Trời đều tự quay quanh trục theo cùng một hướng với chiều chuyển động của chúng quanh Mặt Trời. Tuy nhiên, Sao Kim lại là một ngoại lệ đặc biệt.\n\nSao Kim mất khoảng 243 ngày Trái Đất để hoàn thành một vòng tự quay quanh trục, trong khi chỉ mất khoảng 225 ngày để quay quanh Mặt Trời. Điều thú vị là một ngày Mặt Trời trên Sao Kim, tức khoảng thời gian từ một lần Mặt Trời mọc đến lần tiếp theo, chỉ kéo dài khoảng 117 ngày Trái Đất.\n\nCác nhà khoa học cho rằng chuyển động bất thường này có thể liên quan đến những va chạm lớn trong quá khứ hoặc tác động hấp dẫn và lực thủy triều của Mặt Trời trong hàng tỷ năm. Tuy nhiên, nguồn gốc chính xác của chuyển động nghịch hành vẫn chưa được giải thích hoàn toàn.",
+      "key_takeaways": [
+        "Sao Kim tự quay theo chiều ngược với phần lớn các hành tinh trong Hệ Mặt Trời.",
+        "Một vòng tự quay của Sao Kim kéo dài khoảng 243 ngày Trái Đất.",
+        "Mặt Trời trên Sao Kim mọc ở phía tây và lặn ở phía đông.",
+        "Nguồn gốc chính xác của chuyển động nghịch hành vẫn còn là vấn đề được nghiên cứu."
+      ],
+      "did_you_know": "Nếu bạn có thể đứng trên Sao Kim và chịu được nhiệt độ cùng áp suất khắc nghiệt ở đó, bạn sẽ thấy Mặt Trời mọc ở phía tây rồi từ từ di chuyển trên bầu trời trước khi lặn ở phía đông."
+    }
+  },
+  {
+  "id": "fact-22",
+  "categoryId": "history",
+  "categoryName": "Lịch sử & Văn hóa",
+  "name": "Người Viking từng đặt chân đến châu Mỹ trước Columbus",
+  "fun_fact": "Khoảng 500 năm trước khi Christopher Columbus vượt Đại Tây Dương, người Viking đã xây dựng một khu định cư tại Bắc Mỹ, chứng minh rằng người châu Âu đã đến đây từ rất sớm.",
+  "img_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+  "readTime": "3 phút đọc",
+  "deep_info": {
+    "subtitle": "Hành trình vượt Đại Tây Dương của những chiến binh Bắc Âu",
+    "overview": "Các nhà khảo cổ đã xác định L'Anse aux Meadows ở Newfoundland, Canada là một khu định cư của người Viking có niên đại khoảng năm 1000. Đây là bằng chứng khảo cổ rõ ràng cho thấy người châu Âu đã đến Bắc Mỹ từ nhiều thế kỷ trước Columbus.",
+    "content": "Người Viking, đặc biệt là các thủy thủ Bắc Âu, nổi tiếng với khả năng đóng tàu và vượt biển. Khoảng cuối thế kỷ 10 và đầu thế kỷ 11, những chuyến hải hành của họ đã vươn xa từ Scandinavia đến Iceland, Greenland và cuối cùng là vùng đất ở phía bên kia Đại Tây Dương.\n\nTại L'Anse aux Meadows, các nhà khảo cổ tìm thấy dấu tích của những công trình bằng gỗ và đất, lò rèn cùng nhiều hiện vật liên quan đến đời sống của người Bắc Âu. Khu định cư này được xác định có niên đại khoảng năm 1000 và có thể từng được sử dụng làm căn cứ cho các chuyến thám hiểm.\n\nMột nhân vật nổi tiếng trong các truyền thuyết Bắc Âu là Leif Erikson, người thường được nhắc đến như một trong những nhà thám hiểm Viking đầu tiên đến Bắc Mỹ. Các saga Iceland kể rằng ông đã đặt chân đến một vùng đất được gọi là Vinland, nhưng vị trí chính xác của Vinland vẫn còn được tranh luận.\n\nĐiều đáng chú ý là người Viking không xây dựng một thuộc địa lâu dài ở Bắc Mỹ. Các khu định cư của họ dường như tồn tại trong thời gian tương đối ngắn, có thể do khoảng cách quá xa, điều kiện khắc nghiệt và những xung đột với cư dân bản địa.",
+    "key_takeaways": [
+      "Người Viking đã đến Bắc Mỹ khoảng năm 1000.",
+      "L'Anse aux Meadows là bằng chứng khảo cổ quan trọng nhất về sự hiện diện của người Viking tại Bắc Mỹ.",
+      "Leif Erikson thường được nhắc đến trong các saga Bắc Âu liên quan đến những chuyến thám hiểm này.",
+      "Người Viking không thiết lập được một thuộc địa lâu dài tại Bắc Mỹ."
+    ],
+    "did_you_know": "L'Anse aux Meadows được UNESCO công nhận là Di sản Thế giới vào năm 1978 và là địa điểm khảo cổ quan trọng giúp thay đổi hiểu biết của chúng ta về lịch sử khám phá châu Mỹ."
+    }
+  },
+  {
+    "id": "fact-23",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Người La Mã từng xây một bức tường khổng lồ ở Anh",
+    "fun_fact": "Hoàng đế Hadrian của La Mã cho xây dựng một bức tường dài hơn 100 km trên đảo Anh để đánh dấu và bảo vệ biên giới phía bắc của đế chế.",
+    "img_url": "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Biên giới phương Bắc của Đế chế La Mã",
+      "overview": "Hadrian's Wall được xây dựng từ năm 122 sau Công nguyên dưới thời Hoàng đế Hadrian. Công trình từng là một trong những hệ thống phòng thủ quan trọng nhất của La Mã tại Britannia.",
+      "content": "Sau khi trở thành hoàng đế, Hadrian chủ trương củng cố các vùng biên giới của Đế chế La Mã thay vì liên tục mở rộng lãnh thổ. Một trong những công trình nổi bật nhất của chính sách này là Hadrian's Wall ở miền bắc nước Anh.\n\nBức tường trải dài khoảng 117 km từ bờ biển phía đông sang phía tây. Dọc theo tuyến phòng thủ có các pháo đài, tháp quan sát và cổng kiểm soát.\n\nBức tường không phải là một bức tường kín tuyệt đối ngăn mọi người vượt qua. Nó còn phục vụ việc kiểm soát giao thông, thương mại và thu thuế giữa các khu vực khác nhau.\n\nNgày nay, phần còn lại của Hadrian's Wall trở thành một trong những di tích La Mã nổi tiếng nhất tại Anh.",
+      "key_takeaways": [
+        "Hadrian's Wall được xây dựng từ khoảng năm 122 sau Công nguyên.",
+        "Bức tường dài khoảng 117 km.",
+        "Công trình vừa có chức năng quân sự vừa kiểm soát giao thương.",
+        "Đây là một trong những di tích La Mã nổi tiếng nhất tại Anh."
+      ],
+      "did_you_know": "Hadrian's Wall được UNESCO công nhận là một phần của Di sản Thế giới Frontiers of the Roman Empire."
+    }
+  },
+  {
+    "id": "fact-24",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Người Ai Cập cổ đại sử dụng mỹ phẩm từ hàng nghìn năm trước",
+    "fun_fact": "Người Ai Cập cổ đại, cả nam lẫn nữ, thường sử dụng mỹ phẩm như kohl để trang điểm mắt và bảo vệ mắt khỏi ánh nắng cùng bụi cát.",
+    "img_url": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Làm đẹp và đời sống trong nền văn minh bên sông Nile",
+      "overview": "Mỹ phẩm đóng vai trò quan trọng trong xã hội Ai Cập cổ đại. Người dân sử dụng nhiều loại khoáng chất và hợp chất tự nhiên để tạo màu mắt, son môi và các sản phẩm chăm sóc cơ thể.",
+      "content": "Trang điểm không chỉ dành riêng cho phụ nữ trong xã hội Ai Cập cổ đại. Nam giới cũng thường sử dụng kohl để kẻ viền mắt. Các hộp đựng mỹ phẩm đã được tìm thấy trong nhiều khu mộ cổ.\n\nKohl thường được sử dụng quanh mắt để tạo đường viền đậm đặc trưng. Ngoài mục đích thẩm mỹ, một số nghiên cứu cho rằng các hợp chất trong mỹ phẩm chứa chì mà người Ai Cập sử dụng có thể có tác dụng kháng khuẩn, mặc dù việc tiếp xúc với chì cũng có những rủi ro sức khỏe.\n\nMỹ phẩm còn gắn với địa vị xã hội, nghi lễ tôn giáo và quan niệm về sự sạch sẽ. Những người giàu có có thể sở hữu các hộp mỹ phẩm tinh xảo và nhiều loại nguyên liệu quý.",
+      "key_takeaways": [
+        "Nam giới và phụ nữ Ai Cập cổ đại đều sử dụng mỹ phẩm.",
+        "Kohl là một loại mỹ phẩm mắt phổ biến.",
+        "Mỹ phẩm được sử dụng trong cả đời sống hằng ngày và nghi lễ.",
+        "Một số mỹ phẩm cổ đại chứa các hợp chất có chì."
+      ],
+      "did_you_know": "Các nhà khảo cổ đã tìm thấy nhiều hộp mỹ phẩm và dụng cụ trang điểm trong những ngôi mộ Ai Cập cổ đại."
+    }
+  },
+  {
+    "id": "fact-25",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Mực trên sách cổ từng được làm từ những thứ rất kỳ lạ",
+    "fun_fact": "Một loại mực phổ biến ở châu Âu thời Trung Cổ được tạo ra từ dịch chiết của quả sồi bị ong ký sinh, kết hợp với muối sắt và chất kết dính.",
+    "img_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Công thức bí mật phía sau những bản thảo cổ",
+      "overview": "Mực sắt-gall là một trong những loại mực quan trọng nhất trong lịch sử viết tay châu Âu. Nó được sử dụng rộng rãi trong nhiều thế kỷ để viết sách, thư từ và các tài liệu chính thức.",
+      "content": "Thành phần quan trọng của mực sắt-gall là các khối u nhỏ hình thành trên cây sồi do hoạt động của một số loài ong ký sinh. Những khối u này chứa nhiều tannin, một nhóm hợp chất có khả năng phản ứng với muối sắt.\n\nĐể tạo mực, người ta nghiền các khối u sồi rồi chiết xuất tannin. Sau đó hỗn hợp được kết hợp với muối sắt và chất kết dính như gum arabic.\n\nMực mới tạo ra có thể có màu nhạt nhưng sẽ sẫm dần khi tiếp xúc với oxy. Chính đặc tính này khiến mực sắt-gall trở thành lựa chọn phổ biến để tạo ra chữ viết lâu bền.\n\nTuy nhiên, theo thời gian, loại mực này cũng có thể làm hư hỏng giấy hoặc da thuộc do tính axit của nó.",
+      "key_takeaways": [
+        "Mực sắt-gall từng rất phổ biến trong các bản thảo cổ.",
+        "Một thành phần quan trọng được lấy từ các khối u trên cây sồi.",
+        "Mực sẫm màu hơn khi tiếp xúc với oxy.",
+        "Tính axit của mực có thể làm hỏng giấy và da thuộc theo thời gian."
+      ],
+      "did_you_know": "Nhiều bản thảo lịch sử nổi tiếng của châu Âu vẫn còn dấu vết của mực sắt-gall sau hàng trăm năm."
+    }
+  }, 
+  {
+    "id": "fact-26",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Tokyo từng có tên là Edo",
+    "fun_fact": "Thành phố Tokyo ngày nay từng được gọi là Edo trong nhiều thế kỷ và trở thành trung tâm chính trị của Nhật Bản dưới thời Mạc phủ Tokugawa.",
+    "img_url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Từ một thành Edo đến thủ đô hiện đại của Nhật Bản",
+      "overview": "Edo phát triển mạnh dưới thời Mạc phủ Tokugawa, đặc biệt từ đầu thế kỷ 17. Năm 1868, thành phố được đổi tên thành Tokyo và trở thành trung tâm của chính quyền Nhật Bản thời Minh Trị.",
+      "content": "Trước khi trở thành Tokyo, khu vực này được gọi là Edo. Khi Tokugawa Ieyasu thiết lập Mạc phủ Tokugawa vào năm 1603, Edo trở thành nơi đặt chính quyền quân sự và nhanh chóng phát triển thành một thành phố lớn.\n\nTrong thời kỳ Edo, thành phố thu hút đông đảo samurai, thương nhân, thợ thủ công và dân cư từ nhiều vùng của Nhật Bản. Văn hóa đô thị cũng phát triển mạnh với sân khấu kabuki, tranh ukiyo-e và nhiều hình thức giải trí khác.\n\nNăm 1868, cuộc Minh Trị Duy Tân làm thay đổi hệ thống chính trị Nhật Bản. Hoàng đế chuyển nơi ở từ Kyoto đến Edo, và thành phố được đổi tên thành Tokyo, nghĩa là 'Thủ đô phía Đông'.\n\nTừ đó, Tokyo tiếp tục phát triển và trở thành một trong những đô thị lớn và quan trọng nhất thế giới.",
+      "key_takeaways": [
+        "Tokyo từng được gọi là Edo.",
+        "Edo là trung tâm chính trị của Mạc phủ Tokugawa.",
+        "Năm 1868, Edo được đổi tên thành Tokyo.",
+        "Tokyo nghĩa là 'Thủ đô phía Đông'."
+      ],
+      "did_you_know": "Tên Tokyo được viết bằng hai chữ Hán: 東 (Đông) và 京 (Kinh đô), mang nghĩa là 'Kinh đô phía Đông'."
+    }
+  },
+  {
+    "id": "fact-28",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Cá voi xanh - Sinh vật lớn nhất lịch sử Trái Đất",
+    "fun_fact": "Cá voi xanh lớn hơn bất kỳ loài khủng long nào từng tồn tại, với trái tim to bằng một chiếc xe cơ giới nhỏ.",
+    "img_url": "https://images.unsplash.com/photo-1698334846759-2cdc3352dd85?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Gã khổng lồ dịu dàng của đại dương sâu thẫm",
+      "overview": "Cá voi xanh có thể đạt chiều dài tới 30 mét và nặng tới 200 tấn, giữ kỷ lục động vật lớn nhất từng xuất hiện trên Trái Đất.",
+      "content": "Một con cá voi xanh trưởng thành có thể ăn khoảng 4 tấn tôm nhỏ (krill) mỗi ngày. Trái tim của nó nặng khoảng 180 kg và động mạch chủ to đến mức một đứa trẻ nhỏ có thể bò qua được. Tiếng kêu của cá voi xanh đạt tới 188 decibel, truyền xa hàng trăm km dưới nước, giúp chúng giao tiếp với nhau qua khoảng cách đại dương mênh mông.",
+      "key_takeaways": [
+        "Nặng tới 200 tấn, vượt xa kích thước của các loài khủng long lớn nhất.",
+        "Trái tim nặng tương đương một chiếc xe máy và to như ô tô nhỏ.",
+        "Âm thanh phát ra có thể lan truyền hàng trăm kilômét dưới nước."
+      ],
+      "did_you_know": "Lưỡi của một con cá voi xanh trưởng thành có thể nặng tương đương với trọng lượng của một con voi rừng!"
+    }
+  },
+  {
+    "id": "fact-29",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Chim nhạn Bắc Cực - Hành trình di cư kỷ lục",
+    "fun_fact": "Loài chim nhạn Bắc Cực bay hơn 80.000 km mỗi năm để di cư từ Bắc Cực đến Nam Cực và ngược lại.",
+    "img_url": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Sinh vật trải nghiệm hai mùa hè mỗi năm",
+      "overview": "Sở hữu quãng đường di cư dài nhất trong thế giới động vật, loài chim nhỏ bé này dành phần lớn cuộc đời để bay lượn trên bầu trời.",
+      "content": "Mỗi năm, chim nhạn Bắc Cực thực hiện chuyến hành trình khứ hồi giữa vùng sinh sản ở Bắc Cực và vùng trú đông tại Nam Cực. Nhờ cuộc di cư liên tục này, chúng được hưởng hai mùa hè mỗi năm và chứng kiến nhiều ánh sáng ban ngày hơn bất kỳ sinh vật nào khác trên Trái Đất.\n\nTrong suốt đời mình (khoảng 30 năm), tổng quãng đường di chuyển của một con chim nhạn Bắc Cực có thể tương đương với việc bay lên Mặt Trăng và quay về 3 lần.",
+      "key_takeaways": [
+        "Di chuyển tới 80.000 km mỗi năm giữa hai cực Trái Đất.",
+        "Là sinh vật đón nhận nhiều ánh sáng mặt trời nhất hành tinh.",
+        "Ước tính bay khoảng 2.4 triệu km trong suốt cả vòng đời."
+      ],
+      "did_you_know": "Trong quá trình bay di cư trên đại dương, chim nhạn Bắc Cực có thể vừa bay vừa ngủ bằng cách tắt lần lượt một nửa bán cầu não."
+    }
+  },
+  {
+    "id": "fact-30",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Nấm Armillaria - Sinh vật sống lớn nhất thế giới",
+    "fun_fact": "Kỷ lục sinh vật lớn nhất Trái Đất không thuộc về cá voi xanh hay cây cổ thụ, mà là một thảm nấm rộng gần 9 km².",
+    "img_url": "https://images.unsplash.com/photo-1682226599339-d9fab41e405d?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Mạng lưới sinh học khổng lồ ẩn mình dưới lòng đất",
+      "overview": "Tọa lạc tại Vườn quốc gia Malheur (bang Oregon, Mỹ), quần thể nấm mật Armillaria ostoyae trải rộng trên diện tích 8.9 km².",
+      "content": "Tuy chỉ xuất hiện trên mặt đất dưới dạng các cụm nấm nhỏ vào mùa thu, nhưng bên dưới lòng đất là một mạng lưới sợi nấm (mycelium) khổng lồ liên kết chặt chẽ với nhau thành một cơ thể sống duy nhất. Quần thể nấm này ước tính đã có tuổi đời từ 2.400 đến 8.500 năm tuổi và nặng hàng ngàn tấn.\n\nNó phát triển bằng cách luồn lách qua rễ cây và hấp thụ dinh dưỡng từ các loài cây gỗ trong rừng.",
+      "key_takeaways": [
+        "Trải rộng trên diện tích gần 9 km² (tương đương 1.200 sân bóng đá).",
+        "Có tuổi đời hàng ngàn năm, là một trong những sinh vật lâu đời nhất.",
+        "Toàn bộ thảm nấm chia sẻ chung một bộ gen duy nhất."
+      ],
+      "did_you_know": "Mạng lưới sợi nấm này phát quang trong đêm tối, tạo ra hiện tượng 'lửa cáo' (foxfire) xanh nhạt huyền bí trong rừng!"
+    }
+  },
+  {
+    "id": "fact-31",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Chim cánh cụt Chiminstrap - Cầu hôn bằng đá",
+    "fun_fact": "Các chú chim cánh cụt đực tìm kiếm viên sỏi nhẵn bóng hoàn hảo nhất để tặng cho con mái như một lời cầu hôn.",
+    "img_url": "https://images.unsplash.com/photo-1598439210625-5067c578f3f6?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Nghi thức tình yêu độc đáo tại vùng băng giá",
+      "overview": "Ở các loài cánh cụt như Adélie hay Gentoo, những viên sỏi nhỏ là nguyên liệu vô giá để xây tổ trên nền băng tuyết.",
+      "content": "Do môi trường Nam Cực không có cỏ hay cành cây, sỏi đá trở thành vật liệu duy nhất giúp giữ trứng khỏi bị tan chảy bởi nước băng bên dưới. Các chú chim trống sẽ lùng xới khắp bờ biển để tìm viên sỏi đẹp nhất, nhẵn nhất và mang đặt trước mặt chim mái.\n\nNếu con mái đồng ý nhặt viên sỏi lên, chúng sẽ chính thức kết đôi và cùng nhau dùng viên sỏi đó để khởi công xây dựng chiếc tổ ấm gia đình.",
+      "key_takeaways": [
+        "Dùng sỏi làm quà tặng biểu tượng cho tình yêu và sự cam kết.",
+        "Sỏi giúp nâng cao trứng để không bị ngập trong nước băng.",
+        "Hiện tượng 'trộm sỏi' từ tổ hàng xóm rất phổ biến ở loài này."
+      ],
+      "did_you_know": "Nhiều cặp đôi chim cánh cụt duy trì mối quan hệ 'một vợ một chồng' trung thủy suốt cả cuộc đời!"
+    }
+  },
+  {
+    "id": "fact-32",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Cây Baobab - Tháp nước tự nhiên của châu Phi",
+    "fun_fact": "Một cây Baobab trưởng thành có thể tích trữ tới 120.000 lít nước bên trong thân cây phình to của mình.",
+    "img_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Biểu tượng sức sống mãnh liệt vùng thảo nguyên khô hạn",
+      "overview": "Cây Baobab (cây bánh mì của khỉ) nổi tiếng với hình dáng kỳ lạ như bị lồng ngược rễ lên trời và khả năng sinh tồn kinh ngạc.",
+      "content": "Để vượt qua những mùa khắc nghiệt dài hạn ở châu Phi, Baobab tiến hóa thân cây dạng xốp mềm có khả năng hút và trữ nước như một quả bóng khổng lồ. Vào mùa mưa, thân cây sẽ phình to ra và co lại trong mùa khô hạn.\n\nVỏ cây Baobab có khả năng tái tạo thần kỳ nếu bị bóc đi. Ngoài ra, quả Baobab chứa lượng Vitamin C gấp 6 lần quả cam và là nguồn thực phẩm giàu dinh dưỡng cho cư dân bản địa.",
+      "key_takeaways": [
+        "Có thể trữ tới 120.000 lít nước để chống chọi qua mùa khô.",
+        "Tuổi thọ có thể kéo dài từ 1.000 đến hơn 3.000 năm.",
+        "Được mệnh danh là 'Cây sự sống' của thảo nguyên châu Phi."
+      ],
+      "did_you_know": "Thân của một số cây Baobab cổ thụ to đến mức người ta từng khoét rỗng bên trong để làm quán cà phê hay trạm xe bus!"
+    }
+  },
+  {
+    "id": "fact-33",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Thằn lằn Basilisk - Khả năng đi trên mặt nước",
+    "fun_fact": "Thằn lằn Basilisk có thể chạy nước rút trên mặt nước với tốc độ 1.5 mét/giây mà không bị chìm.",
+    "img_url": "https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Tuyệt kỹ vật lý thoát hiểm tuyệt vời",
+      "overview": "Được biệt danh là 'Thằn lằn Chúa Jesus', loài vật này ở Trung Mỹ sở hữu kỹ năng di chuyển trên mặt nước cực kỳ độc đáo.",
+      "content": "Khi gặp nguy hiểm từ kẻ thù tự nhiên, thằn lằn Basilisk sẽ nhảy xuống nước và chạy bằng hai chân sau. Chân sau của chúng có các ngón dài với nếp gấp da xòe ra, giúp tạo ra túi khí nhỏ nâng đỡ cơ thể mỗi khi đạp mạnh xuống nước.\n\nTốc độ quạt chân cực nhanh cùng lực đẩy cơ học ngăn không cho nước kịp dâng lên phủ lấy chân, giúp chúng 'lướt' trên sông suối khoảng 5-20 mét trước khi chìm xuống và bơi bình thường.",
+      "key_takeaways": [
+        "Tận dụng túi khí và tốc độ đập chân nhanh để không bị chìm.",
+        "Có thể chạy liên tục tới 20 mét trên mặt nước.",
+        "Được đặt biệt danh là 'Jesus Lizard' nhờ khả năng đi trên nước."
+      ],
+      "did_you_know": "Nếu con người muốn chạy trên mặt nước giống như thằn lằn Basilisk, chúng ta cần phải chạy với tốc độ... 105 km/h!"
+    }
+  },
+  {
+    "id": "fact-34",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Rừng Amazon - Động cơ khí hậu của Trái Đất",
+    "fun_fact": "Rừng mưa Amazon tạo ra 20% lượng khí oxy của hành tinh và là nơi cư trú của 10% tổng số loài sinh vật hiện có.",
+    "img_url": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Lá phổi xanh khổng lồ duy trì sự sống hành tinh",
+      "overview": "Với diện tích hơn 5.5 triệu km², Amazon là rừng mưa nhiệt đới lớn nhất Trái Đất, trải dài trên lãnh thổ 9 quốc gia Nam Mỹ.",
+      "content": "Amazon không chỉ hấp thụ hàng tỷ tấn khí CO2 mỗi năm mà còn tạo ra hệ thống 'sông bay' - dòng luân chuyển hơi nước khổng lồ bốc lên từ cây rừng, ảnh hưởng trực tiếp đến lượng mưa và khí hậu toàn cầu.\n\nTầng thảm thực vật dày đặc tới mức ở một số khu vực trung tâm, chỉ có khoảng 1% ánh sáng mặt trời chiếu được xuống tới mặt đất.",
+      "key_takeaways": [
+        "Hấp thụ lượng lớn carbon và đóng góp điều hòa khí hậu toàn cầu.",
+        "Chứa hơn 40.000 loài thực vật và hàng triệu loài côn trùng.",
+        "Tán rừng dày đến mức mưa rơi từ đỉnh cây mất 10 phút mới chạm đất."
+      ],
+      "did_you_know": "Cát bụi giàu phốt pho blown từ sa mạc Sahara qua Đại Tây Dương chính là nguồn phân bón tự nhiên quan trọng nuôi dưỡng rừng Amazon!"
+    }
+  },
+  {
+    "id": "fact-35",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Chim Hồng hạc - Sắc hồng đến từ thức ăn",
+    "fun_fact": "Khi mới sinh ra, chim hồng hạc có lông màu xám trắng. Màu hồng rực rỡ chỉ xuất hiện nhờ chế độ ăn khoái khẩu của chúng.",
+    "img_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Phép màu sinh hóa đến từ các loại tôm tảo",
+      "overview": "Sắc lông hồng cam lộng lẫy của chim hồng hạc là kết quả của việc tiêu thụ thực phẩm chứa carotenoid trong tự nhiên.",
+      "content": "Chế độ ăn của hồng hạc gồm tảo lam-xanh và tôm ngâm muối giàu sắc tố Canthaxanthin. Gan của hồng hạc sẽ phân giải các carotenoid này thành các sắc tố màu hồng và đỏ, sau đó lắng đọng vào lông, da và mỏ của chúng.\n\nNếu ngừng ăn các loại tôm tảo này (như trong môi trường nuôi nhốt thiếu dinh dưỡng), bộ lông của chim hồng hạc sẽ dần phai nhạt trở lại màu trắng nhợt nạt.",
+      "key_takeaways": [
+        "Màu lông hồng đến từ sắc tố carotenoid trong tôm và tảo.",
+        "Hồng hạc con sinh ra có màu xám hoặc trắng nhạt.",
+        "Có khả năng đứng một chân để tiết kiệm năng lượng cơ thể."
+      ],
+      "did_you_know": "Sữa diều mà chim hồng hạc bố mẹ tiết ra để mớm cho con cũng có màu đỏ tươi như máu do chứa lượng lớn sắc tố carotenoid!"
+    }
+  },
+  {
+    "id": "fact-36",
+    "categoryId": "nature",
+    "categoryName": "Tự nhiên & Động vật",
+    "name": "Sét đánh - Năng lượng khủng khép của khí quyển",
+    "fun_fact": "Một tia sét có thể làm nóng không khí xung quanh lên tới 30.000°C - nóng gấp 5 lần so với bề mặt của Mặt Trời.",
+    "img_url": "https://images.unsplash.com/photo-1605727216801-e27ce1d0cc28?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Hiện tượng tĩnh điện vĩ đại của tự nhiên",
+      "overview": "Mỗi giây trôi qua, trên khắp Trái Đất có khoảng 40 đến 50 cú sét đánh xuống mặt đất.",
+      "content": "Khi một tia sét giáng xuống, nó giải phóng một lượng năng lượng khổng lồ chỉ trong vài phần triệu giây. Sự tăng nhiệt độ đột ngột lên tới 30.000°C khiến không khí xung quanh giãn nở cực nhanh với tốc độ siêu thanh, tạo ra sóng xung kích mà chúng ta nghe thấy dưới dạng tiếng sấm rung chuyển.\n\nDù cực kỳ nguy hiểm, sét đóng vai trò quan trọng trong việc cố định đạm (Nito) trong không khí thành dạng hợp chất giúp cây trồng dễ dàng hấp thụ.",
+      "key_takeaways": [
+        "Nhiệt độ tia sét nóng gấp 5 lần bề mặt Mặt Trời (6.000°C).",
+        "Tiếng sấm sinh ra do sự giãn nở không khí siêu tốc khi bị nung nóng.",
+        "Sét giúp cung cấp dưỡng chất Nito tự nhiên cho cây cối."
+      ],
+      "did_you_know": "Nếu có thể thu hoạch toàn bộ năng lượng của một tia sét trung bình, nó đủ để thắp sáng một bóng đèn LED trong hơn 100 ngày liên tục!"
+    }
+  },
+    {
+    "id": "fact-37",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Đại Kim Tự Tháp Giza - Kỳ quan duy nhất còn đứng vững",
+    "fun_fact": "Đại Kim Tự Tháp Giza là kỳ quan duy nhất trong số 7 Kỳ quan Thế giới Cổ đại còn tồn tại tương đối nguyên vẹn đến ngày nay.",
+    "img_url": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Kiệt tác kiến trúc thách thức thời gian của Ai Cập cổ đại",
+      "overview": "Được xây dựng làm lăng mộ cho Pharaoh Khufu vào khoảng năm 2560 TCN, công trình này đã giữ kỷ lục là kiến trúc nhân tạo cao nhất thế giới suốt gần 3.800 năm.",
+      "content": "Để xây dựng Kim Tự Tháp Giza, người Ai Cập cổ đại đã sử dụng khoảng 2.3 triệu khối đá, mỗi khối nặng trung bình từ 2.5 đến 15 tấn. Điều kinh ngạc là các khối đá khổng lồ được ghép nối với nhau chính xác đến mức ngay cả một lưỡi dao mỏng cũng không thể lách qua.\n\nĐặc biệt, công trình được căn chỉnh theo các hướng Bắc - Nam - Đông - Tây chuẩn xác đến kinh ngạc, với sai số góc nghiêng chỉ khoảng vài phần trăm độ so với Bắc thực thiên văn.",
+      "key_takeaways": [
+        "Công trình nhân tạo cao nhất thế giới suốt gần 4 thiên kỷ.",
+        "Sử dụng hơn 2.3 triệu khối đá ghép nối siêu chính xác.",
+        "Được căn chỉnh chính xác theo 4 phương hướng thiên văn."
+      ],
+      "did_you_know": "Khi mới hoàn thành, Kim Tự Tháp được bao phủ bởi một lớp đá vôi trắng bóng nhẵn, phản chiếu ánh mặt trời lấp lánh như một viên ngọc giữa sa mạc!"
+    }
+  },
+  {
+    "id": "fact-38",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Vạn Lý Trường Thành - Vữa xây dựng từ gạo nếp",
+    "fun_fact": "Bí quyết giúp Vạn Lý Trường Thành đứng vững qua hàng ngàn năm chính là nhờ hỗn hợp vữa đặc biệt trộn từ vôi vữa và gạo nếp.",
+    "img_url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Chất kết dính độc đáo của các công trình cổ đại Trung Hoa",
+      "overview": "Vạn Lý Trường Thành là hệ thống thành lũy dài nhất thế giới với tổng chiều dài qua các thời kỳ lên đến hơn 21.000 km.",
+      "content": "Vào thời nhà Minh (khoảng 1.500 năm trước), các công nhân xây dựng đã sáng chế ra loại vữa hữu cơ kết hợp giữa tinh bột gạo nếp và vôi sống. Amylopectin trong gạo nếp kết hợp với canxi cacbonat trong vôi tạo ra một cấu trúc bền vững có khả năng chống thấm nước và chịu lực cực tốt.\n\nNhờ công thức này, nhiều đoạn thành vẫn giữ nguyên được độ gắn kết vững chắc sau nhiều thế kỷ chịu đựng thiên tai và thời tiết khắc nghiệt.",
+      "key_takeaways": [
+        "Vữa gạo nếp kết hợp hữu cơ và vô cơ tạo độ bền vượt trội.",
+        "Tổng chiều dài công trình qua các triều đại lên tới hơn 21.000 km.",
+        "Là một trong những thành tựu kỹ thuật quân sự lớn nhất lịch sử."
+      ],
+      "did_you_know": "Quan niệm cho rằng có thể nhìn thấy Vạn Lý Trường Thành bằng mắt thường từ vũ trụ là một lầm tưởng phổ biến; thực tế mắt người không thể phân biệt được nó ở độ cao đó."
+    }
+  },
+  {
+    "id": "fact-39",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Đội quân đất nung - Hàng ngàn gương mặt không trùng lặp",
+    "fun_fact": "Hơn 8.000 bức tượng chiến binh đất nung trong lăng mộ Tần Thủy Hoàng đều sở hữu khuôn mặt và biểu cảm hoàn toàn khác nhau.",
+    "img_url": "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Kỳ tích điêu khắc và chế tác quân sự thời cổ đại",
+      "overview": "Được phát hiện tình cờ bởi những người nông dân đào giếng vào năm 1974 tại Tây An (Trung Quốc), Đội quân đất nung là phát lộ khảo cổ chấn động thế giới.",
+      "content": "Quần thể tượng được tạo ra nhằm bảo vệ Hoàng đế Tần Thủy Hoàng ở thế giới bên kia. Điểm kinh ngạc là mỗi chiến binh có chiều cao, vóc dáng, nét mặt, kiểu tóc và giáp trụ khác biệt. Các nhà nghiên cứu tin rằng các nghệ nhân đã khắc họa dựa trên hình mẫu của các quân lính thực tế trong quân đội nhà Tần.\n\nBan đầu, các bức tượng đều được sơn màu sắc vô cùng sặc sỡ, nhưng lớp sơn đã nhanh chóng bị oxy hóa và phai màu ngay khi tiếp xúc với không khí.",
+      "key_takeaways": [
+        "Hơn 8.000 chiến binh đất nung mang nét mặt và biểu cảm riêng biệt.",
+        "Đi kèm cùng hàng trăm ngựa chiến và xe ngựa bằng đồng.",
+        "Nguyên bản được sơn màu tỉ mỉ trước khi bị phai màu do oxy hóa."
+      ],
+      "did_you_know": "Lăng mộ chính của Tần Thủy Hoàng cho đến nay vẫn chưa được khai quật vì các nhà khảo cổ lo ngại công nghệ hiện tại chưa đủ để bảo quản cổ vật bên trong."
+    }
+  },
+  {
+    "id": "fact-40",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Angkor Wat - Di tích tôn giáo lớn nhất hành tinh",
+    "fun_fact": "Với diện tích hơn 160 hecta, Angkor Wat giữ kỷ lục Guinness là di tích tôn giáo khổng lồ nhất từng được xây dựng.",
+    "img_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Đỉnh cao kiến trúc Khmer tại Campuchia",
+      "overview": "Được xây dựng vào thế kỷ 12 bởi Vua Suryavarman II, Angkor Wat ban đầu là đền thờ Hindu thờ thần Vishnu trước khi chuyển thành đền Phật giáo.",
+      "content": "Toàn bộ ngôi đền được xây dựng từ hàng triệu khối đá sa thạch vận chuyển từ ngọn núi cách đó 40 km thông qua hệ thống kênh rạch. Thiết kế của đền mô phỏng ngọn núi thiêng Meru - trung tâm vũ trụ trong thần thoại Hindu.\n\nCác bức tường bao quanh đền được chạm khắc hàng ngàn bức phù điêu tinh xảo khắc họa các sử thi cổ đại như Mahabharata và Ramayana, cùng hơn 3.000 hình ảnh vũ nữ Apsara xinh đẹp.",
+      "key_takeaways": [
+        "Di tích tôn giáo lớn nhất thế giới rộng hơn 162 hecta.",
+        "Chuyển đổi từ đền thờ Hindu sang đền thờ Phật giáo qua các thời kỳ.",
+        "Có mặt trên lá cờ quốc gia của Campuchia."
+      ],
+      "did_you_know": "Vào ngày Xuân phân và Thu phân, mặt trời sẽ mọc chính xác ngay trên đỉnh tháp trung tâm của Angkor Wat!"
+    }
+  },
+  {
+    "id": "fact-41",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Trận Bạch Đằng - Nghệ thuật cọc gỗ thủy chiến",
+    "fun_fact": "Chiến thuật cắm cọc gỗ bịt sắt dưới lòng sông của Đại Việt đã 3 lần đánh tan các thế lực xâm lược phương Bắc trên sông Bạch Đằng.",
+    "img_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Đỉnh cao trí tuệ quân sự Việt Nam trong lịch sử giữ nước",
+      "overview": "Sông Bạch Đằng ghi dấu những chiến công hiển hách của dân tộc Việt Nam vào các năm 938 (Ngô Quyền), 981 (Lê Hoàn) và 1288 (Trần Hưng Đạo).",
+      "content": "Chiến thuật độc đáo này dựa trên việc nghiên cứu kỹ lưỡng quy luật thủy triều lên xuống của sông Bạch Đằng. Các chiến sĩ đã đẽo nhọn các thân cây gỗ lớn, bọc sắt ở đầu rồi cắm chìm dưới lòng sông theo thế trận trận địa cọc mai phục.\n\nKhi thủy triều lên, quân ta dùng thuyền nhẹ ra khiêu chiến rồi giả thua rút chạy. Khi địch đuổi theo và thủy triều bắt đầu rút nhanh, thuyền chiến hạng nặng của giặc bị đâm thủng bởi rặng cọc chìm, dẫn đến thảm bại hoàn toàn.",
+      "key_takeaways": [
+        "Tận dụng hiện tượng thủy triều tự nhiên làm vũ khí tác chiến.",
+        "Chấm dứt 1.000 năm Bắc thuộc với chiến thắng của Ngô Quyền năm 938.",
+        "Đập tan tham vọng xâm lược của đế chế Nguyên Mông năm 1288."
+      ],
+      "did_you_know": "Năm 1958, các bãi cọc gỗ nguyên bản từ thời nhà Trần đã được các nhà khảo cổ phát hiện tại Yên Hưng (Quảng Ninh) trong tình trạng khá nguyên vẹn!"
+    }
+  },
+  {
+    "id": "fact-42",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Nữ hoàng Cleopatra - Sống gần thời đại Mặt Trăng hơn Kim Tự Tháp",
+    "fun_fact": "Thời điểm Nữ hoàng Cleopatra sống (69 - 30 TCN) gần với sự kiện con người lên Mặt Trăng (1969) hơn là thời điểm xây Kim Tự Tháp Giza.",
+    "img_url": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80",
+    "readTime": "2 phút đọc",
+    "deep_info": {
+      "subtitle": "Góc nhìn ngạc nhiên về mốc thời gian lịch sử nhân loại",
+      "overview": "Dù đều thuộc về chủ đề Ai Cập cổ đại trong tư duy phổ thông, khoảng cách thời gian giữa các sự kiện này lại lớn hơn chúng ta tưởng rất nhiều.",
+      "content": "Đại Kim Tự Tháp Giza được xây dựng hoàn tất vào khoảng năm 2560 TCN. Nữ hoàng Cleopatra VII sống vào khoảng năm 30 TCN. Khoảng cách giữa hai thời điểm này là hơn 2.500 năm.\n\nTrong khi đó, khoảng cách từ thời Cleopatra đến sự kiện phi thuyền Apollo 11 hạ cánh xuống Mặt Trăng năm 1969 chỉ khoảng 2.000 năm. Điều này cho thấy văn hóa Ai Cập tồn tại vô cùng kéo dài qua nhiều thiên kỷ.",
+      "key_takeaways": [
+        "Kim Tự Tháp đã cổ xưa hơn 2.500 tuổi ngay trong thời Cleopatra.",
+        "Khoảng cách thời gian đảo ngược định kiến thông thường về lịch sử.",
+        "Cleopatra là vị Pharaoh cuối cùng của Ai Cập trước khi thuộc về La Mã."
+      ],
+      "did_you_know": "Mặc dù là quyến rũ và cai trị Ai Cập, Cleopatra thực chất mang dòng máu Hy Lạp - Macedonia!"
+    }
+  },
+  {
+    "id": "fact-43",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Đấu trường Colosseum - Hồ nước thủy chiến giả định",
+    "fun_fact": "Người La Mã từng bơm nước ngập lòng Đấu trường Colosseum để tổ chức các trận hải chiến giả định (Naumachia) với thuyền thật.",
+    "img_url": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Đỉnh cao kỹ thuật thủy lợi và giải trí thời Đế chế La Mã",
+      "overview": "Đấu trường La Mã Colosseum tại Rome không chỉ là nơi diễn ra các trận đấu sĩ mà còn là một kiệt tác kỹ thuật đa năng.",
+      "content": "Trong những năm đầu sau khi khánh thành (khoảng năm 80 CN), sàn đấu gỗ của Colosseum có thể được tháo rời. Người La Mã đã dẫn nước từ các aqueduct (kênh dẫn nước) vào lòng đấu trường, tạo thành một hồ nước nhân tạo sâu vài mét.\n\nHọ đưa các chiến thuyền thu nhỏ cùng hàng ngàn nô lệ vào để tái hiện các trận hải chiến lịch sử nổi tiếng trước sự chứng kiến của hơn 50.000 khán giả.",
+      "key_takeaways": [
+        "Khả năng ngập nước lòng đấu trường nhờ hệ thống cấp thoát nước tinh vi.",
+        "Tái hiện các trận thủy chiến quy mô lớn với hàng ngàn người tham gia.",
+        "Sức chứa kỷ lục từ 50.000 đến 80.000 khán giả thời cổ đại."
+      ],
+      "did_you_know": "Về sau, hệ thống đường hầm ngầm Hypogeum được xây dựng bên dưới sàn đấu để nhốt dã thú và đấu sĩ, khiến việc đổ nước làm hồ không còn thực hiện nữa."
+    }
+  },
+  {
+    "id": "fact-44",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Thành phố ngầm Derinkuyu - Nơi ẩn nấp dưới lòng đất",
+    "fun_fact": "Derinkuyu là thành phố cổ ngầm dưới lòng đất tại Thổ Nhĩ Kỳ có sức chứa lên đến 20.000 người cùng đầy đủ gia súc và lương thực.",
+    "img_url": "https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Kỳ quan kiến trúc ẩn mình tại vùng Cappadocia",
+      "overview": "Được đào sâu 85 mét lòng đất đá túp núi lửa, Derinkuyu là một trong hơn 200 thành phố ngầm được phát hiện tại Thổ Nhĩ Kỳ.",
+      "content": "Thành phố được bắt đầu đào từ thời người Phrygian (thế kỷ 8 TCN) và tiếp tục phát triển bởi cư dân Kitô giáo để trốn tránh các cuộc chiến tranh. Nơi đây gồm 18 tầng ngầm với đầy đủ nhà ở, chuồng trại, kho lương, xưởng nấu rượu, nhà thờ và trường học.\n\nHệ thống thông gió gồm hơn 15.000 ống khí giúp không khí luôn lưu thông tươi mới ngay cả ở những tầng sâu nhất. Các lối đi được bảo vệ bằng các tảng đá tròn khổng lồ chỉ có thể lăn đóng từ bên trong.",
+      "key_takeaways": [
+        "Sâu 85 mét dưới lòng đất với 18 tầng cấu trúc hoàn chỉnh.",
+        "Hệ thống thông gió tinh vi duy trì không khí ổn định.",
+        "Cung cấp chỗ trú ẩn an toàn cho 20.000 người trong chiến tranh."
+      ],
+      "did_you_know": "Thành phố ngầm này bị lãng quên suốt nhiều thế kỷ và chỉ tình cờ được phát hiện vào năm 1963 khi một người dân địa phương đập phá bức tường trong nhà mình để sửa chữa!"
+    }
+  },
+  {
+    "id": "fact-45",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Machu Picchu - Thành phố trên mây không dùng vữa",
+    "fun_fact": "Các công trình đá tại thành phố Machu Picchu của người Inca được xếp khít đến mức không cần sử dụng bất kỳ giọt vữa kết dính nào.",
+    "img_url": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Đỉnh cao kỹ thuật đẽo đá Ashlar của Đế chế Inca",
+      "overview": "Nằm ở độ cao 2.430 mét trên dãy Andes (Peru), Machu Picchu được xây dựng vào thế kỷ 15 và bị bỏ hoang khi người Tây Ban Nha xâm lược.",
+      "content": "Người Inca đã sử dụng kỹ thuật đẽo đá Ashlar - cắt gọt các khối đá nham thạch sao cho khớp hoàn hảo với nhau mà không cần dùng vữa. Kỹ thuật này đặc biệt hiệu quả ở vùng đất thường xuyên xảy ra động đất như Peru.\n\nKhi động đất xảy ra, các khối đá sẽ 'nhảy múa' và tự xê dịch nhẹ rồi rơi trở lại đúng vị trí ban đầu, giúp công trình không bị sụp đổ qua hàng trăm năm.",
+      "key_takeaways": [
+        "Kỹ thuật lắp đá Ashlar không dùng vữa đạt độ chính xác cao.",
+        "Thiết kế chống động đất tự nhiên thông minh của người Inca.",
+        "Tọa lạc ở độ cao hiểm trở hơn 2.400m trên dãy núi Andes."
+      ],
+      "did_you_know": "Mặc dù xây dựng nên những kiệt tác kiến trúc khổng lồ, người Inca lại không bao giờ sử dụng bánh xe trong xây dựng!"
+    }
+  },
+  {
+    "id": "fact-46",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Trống đồng Đông Sơn - Đỉnh cao đúc đồng cổ đại",
+    "fun_fact": "Trống đồng Đông Sơn không chỉ là nhạc khí mà còn đại diện cho quyền lực, tín ngưỡng và trình độ đúc đồng điêu luyện của người Việt cổ.",
+    "img_url": "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Biểu tượng rực rỡ của Văn hóa Đông Sơn thời kỳ dựng nước",
+      "overview": "Xuất hiện vào khoảng thế kỷ 7 TCN đến thế kỷ 6 CN, trống đồng Đông Sơn là di vật tiêu biểu cho nền văn minh sông Hồng.",
+      "content": "Mặt trống đồng được chạm khắc các hoa văn hình ngôi sao nhiều cánh ở trung tâm (tượng trưng cho Thần Mặt Trời), xung quanh là hình ảnh sinh hoạt của cư dân cổ: chim lạc bay, người giã gạo, đua thuyền, nhảy múa.\n\nKỹ thuật đúc trống đồng thời kỳ này đạt trình độ kinh ngạc về tỷ lệ pha trộn đồng - thiếc - chì cũng như nghệ thuật tạo khuôn đúc hoa văn vô cùng phức tạp và sắc nét.",
+      "key_takeaways": [
+        "Biểu tượng đỉnh cao của nền văn minh lúa nước sông Hồng.",
+        "Hoa văn mặt trống phản ánh tín ngưỡng thờ Mặt Trời và đời sống sinh hoạt.",
+        "Kỹ thuật luyện kim và đúc đồng tiên tiến hàng đầu thời bấy giờ."
+      ],
+      "did_you_know": "Trống đồng Ngọc Lũ - chiếc trống đẹp và nguyên vẹn nhất - hiện đang được bảo tồn và lưu giữ như Bảo vật Quốc gia tại Bảo tàng Lịch sử Quốc gia Việt Nam!"
+    }
+  },
+  {
+    "id": "fact-47",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Thư viện Alexandria - Kho tàng tri thức bị mất mát",
+    "fun_fact": "Thư viện Alexandria ở Ai Cập thời cổ đại từng lưu giữ hàng trăm ngàn cuộn sách chứa đựng tri thức của toàn bộ thế giới biết đến thời đó.",
+    "img_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Bi kịch tổn thất tri thức lớn nhất trong lịch sử nhân loại",
+      "overview": "Được thành lập vào thế kỷ 3 TCN dưới thời triều đại Ptolemy, Thư viện Alexandria là trung tâm nghiên cứu học thuật lớn nhất thời Cổ đại.",
+      "content": "Chính sách của thư viện là mượn tất cả các cuộn sách từ các tàu cập cảng Alexandria, chép lại một bản sao để trả lại cho chủ tàu, và giữ lại bản gốc. Nơi đây từng là nơi làm việc của các nhà toán học, thiên văn học kiệt xuất như Euclid, Archimedes, Eratosthenes.\n\nThư viện bị suy yếu và phá hủy dần qua nhiều sự kiện hỏa hoạn và xung đột lịch sử, làm mất đi vô số tác phẩm vô giá của văn minh Hy Lạp, Ai Cập và Ba Tư.",
+      "key_takeaways": [
+        "Trung tâm học thuật và lưu trữ tri thức lớn nhất thế giới cổ đại.",
+        "Sở hữu hàng trăm nghìn cuộn sách bằng giấy cói vô giá.",
+        "Sự phá hủy thư viện là tổn thất lớn đối với lịch sử khoa học."
+      ],
+      "did_you_know": "Nhà thiên văn Eratosthenes khi làm giám đốc Thư viện Alexandria đã tính toán được chu vi Trái Đất với độ chính xác kinh ngạc chỉ bằng một chiếc cọc và cái bóng!"
+    }
+  },
+  {
+    "id": "fact-48",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Lịch Maya - Sự chính xác thiên văn phi thường",
+    "fun_fact": "Bộ lịch của người Maya cổ đại có độ chính xác cao hơn cả lịch Julius mà châu Âu đã sử dụng trong nhiều thế kỷ.",
+    "img_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Thành tựu toán học và thiên văn học kinh ngạc của vùng Mesoamerica",
+      "overview": "Nền văn minh Maya ở Trung Mỹ đã phát triển hệ thống tính thời gian vô cùng phức tạp dựa trên quan sát các thiên thể.",
+      "content": "Người Maya sử dụng đồng thời nhiều hệ thống lịch, trong đó có lịch Haab (365 ngày tương đương năm mặt trời) và lịch Tzolk'in (260 ngày cho nghi lễ). Họ đã tính toán chính xác chu kỳ của Sao Kim và các kỳ nhật thực, nguyệt thực mà không cần kính thiên văn.\n\nĐặc biệt, hệ thống đếm Long Count (Tính số ngày kéo dài) của họ có thể tính toán thời gian lên đến hàng triệu năm trong quá khứ và tương lai.",
+      "key_takeaways": [
+        "Tính toán năm mặt trời đạt độ chính xác gần như tuyệt đối.",
+        "Sáng tạo ra số 0 độc lập với nền văn minh Ấn Độ.",
+        "Lịch Maya kết thúc chu kỳ vào năm 2012 chứ không dự đoán ngày tận thế."
+      ],
+      "did_you_know": "Người Maya là một trong những dân tộc cổ đại hiếm hoi tự phát triển độc lập khái niệm 'số 0' trong toán học từ rất sớm!"
+    }
+  },
+  {
+    "id": "fact-49",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Áo dài Việt Nam - Hành trình tiến hóa trang phục dân tộc",
+    "fun_fact": "Chiếc Áo dài hiện đại ngày nay là kết quả cải tiến đột phá từ chiếc áo ngũ thân truyền thống vào thập niên 1930.",
+    "img_url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Nghệ thuật tôn vinh vẻ đẹp thanh lịch của người Việt",
+      "overview": "Áo dài là trang phục truyền thống biểu tượng cho bản sắc văn hóa và tâm hồn của người phụ nữ Việt Nam qua nhiều thời kỳ.",
+      "content": "Tiền thân của Áo dài là chiếc áo giao lĩnh và áo ngũ thân lập lĩnh thời Nguyễn. Đến năm 1930, họa sĩ Cát Tường (Lemur) cùng các nghệ sĩ nhóm Tự Lực Văn Đoàn đã cách tân kiểu dáng: ôm sát cơ thể, cổ bẻ, vai chít eo và tà dài sát đất.\n\nTrải qua nhiều giai đoạn biến đổi như Áo dài Le Mur, Áo dài Raglan (thập niên 1950), trang phục này đã kết hợp hài hòa giữa nét cổ điển Á Đông và sự hiện đại phương Tây.",
+      "key_takeaways": [
+        "Phát triển từ áo ngũ thân truyền thống sang dáng ôm sát hiện đại.",
+        "Đánh dấu bước tiến cách tân trang phục mạnh mẽ thập niên 1930.",
+        "Được công nhận toàn cầu là biểu tượng văn hóa Việt Nam."
+      ],
+      "did_you_know": "Từ 'Ao dai' đã được đưa nguyên bản vào từ điển tiếng Anh Oxford mà không cần dịch sang từ thay thế nào khác!"
+    }
+  },
+  {
+    "id": "fact-50",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Bia Tiến sĩ Văn Miếu - Di sản tư liệu thế giới",
+    "fun_fact": "82 tấm bia Tiến sĩ tại Văn Miếu - Quốc Tử Giám là những pho sử đá duy nhất trên thế giới ghi lại các khoa thi suốt hơn 300 năm.",
+    "img_url": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Đỉnh cao truyền thống hiếu học và trọng hiền tài của Đại Việt",
+      "overview": "Được dựng từ năm 1484 dưới thời Vua Lê Thánh Tông, các bia Tiến sĩ vinh danh những người đỗ đại khoa trong các kỳ thi Đình.",
+      "content": "Mỗi tấm bia đá được đặt trên lưng một con rùa đá (biểu tượng cho sự bền vững lâu dài). Nội dung văn bia không chỉ ghi tên tuổi, quê quán của 1.304 vị Tiến sĩ mà còn chứa đựng các bài văn triết học, tư tưởng giáo dục sâu sắc.\n\nBài văn bia khoa thi năm 1442 do Thân Nhân Trung soạn thảo đã để lại câu nói bất hủ: 'Hiền tài là nguyên khí của quốc gia'.",
+      "key_takeaways": [
+        "Vinh danh 1.304 vị Tiến sĩ qua 82 khoa thi từ thời Lê - Mạc.",
+        "Được UNESCO công nhận là Di sản Tư liệu Thế giới ký ký ức.",
+        "Nơi thể hiện tư tưởng coi trọng trí thức hàng đầu thời phong kiến."
+      ],
+      "did_you_know": "Mỗi bia đá Tiến sĩ đều có nét hoa văn chạm khắc độc bản, phản ánh phong cách nghệ thuật điêu khắc riêng của từng thời kỳ lịch sử!"
+    }
+  },
+  {
+    "id": "fact-51",
+    "categoryId": "history",
+    "categoryName": "Lịch sử & Văn hóa",
+    "name": "Chữ Quốc ngữ - Hành trình ký âm tiếng Việt bằng chữ Latin",
+    "fun_fact": "Chữ Quốc ngữ ban đầu được tạo ra bởi các giáo sĩ phương Tây nhằm mục đích truyền giáo trước khi trở thành chữ viết chính thức của Việt Nam.",
+    "img_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80",
+    "readTime": "3 phút đọc",
+    "deep_info": {
+      "subtitle": "Bước ngoặt lịch sử trong văn hóa và trí thức Việt Nam",
+      "overview": "Hình thành từ thế kỷ 17 nhờ công sức của nhiều giáo sĩ Bồ Đào Nha, Ý, Pháp (trong đó có Alexandre de Rhodes), chữ Quốc ngữ đã thay đổi hoàn toàn việc đọc viết của người Việt.",
+      "content": "Trước khi có chữ Quốc ngữ, người Việt dùng chữ Hán và chữ Nôm (vốn rất khó học). Chữ Quốc ngữ sử dụng ký tự Latin kèm theo các dấu thanh (sắc, huyền, hỏi, ngã, nặng) để ký âm chính xác từng âm tiết của tiếng Việt.\n\nNăm 1651, cuốn từ điển 'Dictionarium Annamiticum Lusitanum et Latinum' (Từ điển Việt - Bồ - La) ra đời tại Rome, đánh dấu mốc quan trọng trong việc chuẩn hóa loại chữ viết mới này.",
+      "key_takeaways": [
+        "Ký âm Latin hóa tiếng Việt giúp việc học đọc, học viết nhanh chóng hơn.",
+        "Cuốn từ điển Việt - Bồ - La năm 1651 là mốc chuẩn hóa đầu tiên.",
+        "Góp phần nâng cao dân trí vượt bậc vào đầu thế kỷ 20."
+      ],
+      "did_you_know": "Phong trào Đông Kinh Nghĩa Thục đầu thế kỷ 20 đã đóng vai trò quyết định trong việc truyền bá và phổ cập chữ Quốc ngữ rộng rãi trong quần chúng nhân dân!"
+    }
   }
 ]
