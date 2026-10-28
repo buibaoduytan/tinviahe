@@ -3,6 +3,7 @@ import type { JSX } from "react/jsx-runtime";
 import type { Video } from "../types/video";
 import type { NewsArticle } from "../types/news";
 import { getNews } from "../services/newsApi";
+import type { VideoItem } from "../types/videoitem";
 import {
   Play, VolumeX, Volume2,
   Heart, MessageCircle, Share2, Bookmark,
@@ -12,24 +13,6 @@ import {
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
-// Merged type: a VideoCard can be driven by either a Video or a NewsArticle
-type VideoItem = Partial<Video> & Partial<NewsArticle> & {
-  id: string | number;
-  resolvedVideoUrl: string;
-  resolvedThumb: string;
-  resolvedTitle: string;
-  resolvedDescription: string;
-  resolvedAuthor: string;
-  resolvedTag: string;
-  resolvedSource: string;
-  resolvedDate: string;
-  likes: number;
-  comments: number;
-  shares: number;
-  views: number;
-  likedByUser: boolean;
-  savedByUser: boolean;
-};
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -378,7 +361,7 @@ function VideoSlide({
           {(item.resolvedTag.split(",")).map((t, i) => (
             <span key={i} className="text-[#7dd3fc] text-xs whitespace-nowrap">#{t.trim()}</span>
           ))}
-          {(item as NewsArticle).keywords?.split(",").slice(0, 4).map((k: string, i: number) => (
+          {(item as unknown as NewsArticle).keywords?.split(",").slice(0, 4).map((k: string, i: number) => (
             <span key={`kw-${i}`} className="text-white/50 text-xs whitespace-nowrap">#{k.trim()}</span>
           ))}
         </div>
@@ -419,10 +402,6 @@ function VideoSlide({
 // ─── Main Page ────────────────────────────────────────────────────────────────
 
 interface VideoScrollPageProps {
-  /**
-   * Pass either Video[] or NewsArticle[].
-   * If omitted, the page fetches video items from the backend API.
-   */
   rawItems?: ((Video & { id: number }) | NewsArticle)[];
 }
 

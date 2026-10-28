@@ -24,7 +24,11 @@
     "noUnusedParameters": true,
     "isolatedDeclarations": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+}
   },
   "include": ["frontend/src", "frontend/*.tsx"]
 }

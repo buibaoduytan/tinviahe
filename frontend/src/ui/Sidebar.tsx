@@ -37,10 +37,9 @@ export default function Sidebar(): JSX.Element {
         className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-slate-300 transition hover:bg-slate-800 hover:text-white"
       >
         {open ? <X size={16} /> : <Menu size={16} />}
-        <span>Menu</span>
         <ChevronDown
           size={14}
-          className={`text-slate-500 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
+          className={`text-slate-500 transition-transform duration-300 ${open  ? "rotate-180" : ""}`}
         />
       </button>
 

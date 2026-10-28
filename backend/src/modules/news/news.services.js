@@ -8,7 +8,6 @@ async function requestNews({ q, country, language, nextPage }) {
     language,
     ...(q       ? { q }               : {}),
     ...(country ? { country }         : {}),
-    // newsdata.io dùng "page" cho pagination token (string)
     ...(nextPage ? { page: nextPage } : {}),
   };
 
